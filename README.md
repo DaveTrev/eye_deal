@@ -35,4 +35,14 @@ use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
 design eyewear group https://designeyeweargroup.kontainer.com/folder/4250#token=s4lkLCrIra&type=direct
 orgreen optics 
 
+
+checklist taken with thanks from https://github.com/Shaga-Matula
+## Tasks :
+- [ ] <label><input type="checkbox" disabled /> Task 1 : ###############</label>
+- [ ] <label><input type="checkbox" disabled /> Task 2 : ###############</label>
+- [ ] <label><input type="checkbox" disabled /> Task 3 : ###############</label>
+## Acceptance Criteria :
+- [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
+- [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
+
 Cups of coffee = 7
