@@ -31,4 +31,8 @@ Taken from https://codetheorem.co/blogs/best-fonts-for-ecommerce-website
 credits
 boutique ado project
 use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
-Cups of coffee = 5
+
+design eyewear group https://designeyeweargroup.kontainer.com/folder/4250#token=s4lkLCrIra&type=direct
+orgreen optics 
+
+Cups of coffee = 7
