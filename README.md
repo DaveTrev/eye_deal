@@ -2,10 +2,26 @@ Intro
 Creating a full stack ecomm site for a spectacle frame retailer
 
 Milestones
+Home
+Registration
+Products
+Basket
+Checkout
+Payment
+Profile
+Admin
+Reviews
 1. Full CRUD
 2. checkout functionality 
 3. ui/ux updates
 4. Finishing documentation, SEO, meta data, facebook page, 
+
+sprints oct/nov 23
+29 - 4 product setup
+5- 11 shopping bag - adding products
+12-18 checkout / stripe
+19 - 25 profiles deploy / journal / contact us
+26 - 2 style / readme / ecomm / robots fb page / tidy submit
 
 landing page images
 https://www.pexels.com/photo/two-clear-eyeglasses-with-gray-frames-1493112/
@@ -35,6 +51,8 @@ use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
 design eyewear group https://designeyeweargroup.kontainer.com/folder/4250#token=s4lkLCrIra&type=direct
 orgreen optics 
 
+Generating sku codes
+https://www.3dsellers.com/free-tools/sku-generator
 
 checklist taken with thanks from https://github.com/Shaga-Matula
 ## Tasks :
@@ -45,4 +63,4 @@ checklist taken with thanks from https://github.com/Shaga-Matula
 - [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
 - [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
 
-Cups of coffee = 11
+Cups of coffee = 13
