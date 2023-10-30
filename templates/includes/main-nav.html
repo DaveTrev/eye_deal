@@ -16,9 +16,9 @@
                 For Him
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="mens-link">
-                <a href="{% url 'products' %}?gender=male" class="dropdown-item">Glasses</a>
-                <a href="{% url 'products' %}?category=male,sunglasses" class="dropdown-item">Sunglasses</a>
-                <a href="{% url 'products' %}?category=male,glasses,sunglasses" class="dropdown-item">All Mens Frames</a>
+                <a href="{% url 'products' %}?category=Glasses&gender=Male" class="dropdown-item">Glasses</a>
+                <a href="{% url 'products' %}?category=Male,Sunglasses" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?category=Male,Glasses,Sunglasses" class="dropdown-item">All Mens Frames</a>
             </div>
         </li>
 
@@ -27,9 +27,9 @@
                 For Her
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="womens-link">
-                <a href="" class="dropdown-item">Glasses</a>
-                <a href="" class="dropdown-item">Sunglasses</a>
-                <a href="" class="dropdown-item">All Womens Frames</a>
+                <a href="{% url 'products' %}?category=Female,Glasses" class="dropdown-item">Glasses</a>
+                <a href="{% url 'products' %}?category=Female,Sunglasses" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?category=Female,Glasses,Sunglasses" class="dropdown-item">All Womens Frames</a>
             </div>
         </li>
 
