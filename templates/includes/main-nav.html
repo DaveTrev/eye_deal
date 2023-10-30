@@ -16,9 +16,9 @@
                 For Him
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="mens-link">
-                <a href="" class="dropdown-item">Glasses</a>
-                <a href="" class="dropdown-item">Sunglasses</a>
-                <a href="" class="dropdown-item">All Mens Frames</a>
+                <a href="{% url 'products' %}?gender=male" class="dropdown-item">Glasses</a>
+                <a href="{% url 'products' %}?category=male,sunglasses" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?category=male,glasses,sunglasses" class="dropdown-item">All Mens Frames</a>
             </div>
         </li>
 

@@ -44,8 +44,12 @@ Merriweather chosen
 "Meriweather is quite popular and one of the widely used brand fonts for websites. Especially for the e-commerce ones. Indeed, it is pleasant to look at because of its condensed letterforms. Also, it is ideal for font pairings. If you wish to have a high-end brand image, then Merriweather is the best fonts style for it!"
 Taken from https://codetheorem.co/blogs/best-fonts-for-ecommerce-website
 
+Bugs
+Search bar returning products, not exactly correct?
+
+
 credits
-boutique ado project
+boutique ado project used a boilerplate
 use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
 
 design eyewear group https://designeyeweargroup.kontainer.com/folder/4250#token=s4lkLCrIra&type=direct
@@ -64,4 +68,4 @@ checklist taken with thanks from https://github.com/Shaga-Matula
 - [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
 - [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
 
-Cups of coffee = 16
+Cups of coffee = 17
