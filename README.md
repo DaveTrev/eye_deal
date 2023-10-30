@@ -49,7 +49,8 @@ boutique ado project
 use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
 
 design eyewear group https://designeyeweargroup.kontainer.com/folder/4250#token=s4lkLCrIra&type=direct
-orgreen optics 
+orgreen optics https://orgreenoptics.presscloud.com/digitalshowroom/#/gallery
+Any product is used for educational purposes only
 
 Generating sku codes
 https://www.3dsellers.com/free-tools/sku-generator
@@ -63,4 +64,4 @@ checklist taken with thanks from https://github.com/Shaga-Matula
 - [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
 - [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
 
-Cups of coffee = 13
+Cups of coffee = 15
