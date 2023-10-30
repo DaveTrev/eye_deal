@@ -5,32 +5,22 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="mens-link">
-                <a href="" class="dropdown-item">Glasses</a>
-                <a href="" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?category=Glasses" class="dropdown-item">Glasses</a>
+                <a href="{% url 'products' %}?category=Glasses" class="dropdown-item">Sunglasses</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Frames</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="mens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                For Him
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=Glasses" id="glasses-link">
+                Spectacles
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="mens-link">
-                <a href="{% url 'products' %}?category=Glasses&gender=Male" class="dropdown-item">Glasses</a>
-                <a href="{% url 'products' %}?category=Male,Sunglasses" class="dropdown-item">Sunglasses</a>
-                <a href="{% url 'products' %}?category=Male,Glasses,Sunglasses" class="dropdown-item">All Mens Frames</a>
-            </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="womens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                For Her
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'products' %}?category=Glasses" id="sunglasses-link">
+                Sunnies
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="womens-link">
-                <a href="{% url 'products' %}?category=Female,Glasses" class="dropdown-item">Glasses</a>
-                <a href="{% url 'products' %}?category=Female,Sunglasses" class="dropdown-item">Sunglasses</a>
-                <a href="{% url 'products' %}?category=Female,Glasses,Sunglasses" class="dropdown-item">All Womens Frames</a>
-            </div>
         </li>
 
         <li class="nav-item">

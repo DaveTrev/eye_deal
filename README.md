@@ -46,6 +46,17 @@ Taken from https://codetheorem.co/blogs/best-fonts-for-ecommerce-website
 
 Bugs
 Search bar returning products, not exactly correct?
+removing male / female dropdown toggle as filtering not working on gender? return to fix, below code removed from header "for him" "for her"
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="mens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                For Him
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="mens-link">
+                <a href="{% url 'products' %}?category=Glasses&gender=Male" class="dropdown-item">Glasses</a>
+                <a href="{% url 'products' %}?category=Male,Sunglasses" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?category=Male,Glasses,Sunglasses" class="dropdown-item">All Mens Frames</a>
+            </div>
+        </li>
 
 
 credits
