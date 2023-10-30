@@ -17,11 +17,11 @@ Reviews
 4. Finishing documentation, SEO, meta data, facebook page, 
 
 sprints oct/nov 23
-29 - 4 product setup
-5- 11 shopping bag - adding products
-12-18 checkout / stripe
-19 - 25 profiles deploy / journal / contact us
-26 - 2 style / readme / ecomm / robots fb page / tidy submit
+1. (29 - 4) product setup filter & sort
+2. (5- 11) shopping bag - adding products
+3. (12-18) checkout / stripe
+4. (19 - 25) profiles deploy / journal / contact us
+5. (26 - 2) style / readme / ecomm / robots / fb page / tidy submit
 
 landing page images
 https://www.pexels.com/photo/two-clear-eyeglasses-with-gray-frames-1493112/
@@ -57,6 +57,10 @@ removing male / female dropdown toggle as filtering not working on gender? retur
                 <a href="{% url 'products' %}?category=Male,Glasses,Sunglasses" class="dropdown-item">All Mens Frames</a>
             </div>
         </li>
+
+I noticed you have a field for gender but also there is category class. 
+If gender is part of your product model then you will need to refine your products by gender instead of category. 
+You could also create a separate class gender like a subcategory connected to your product and filter that way too
 
 
 credits
