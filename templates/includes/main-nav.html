@@ -4,9 +4,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="mens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Products
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="mens-link">
+            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?category=Glasses" class="dropdown-item">Glasses</a>
                 <a href="{% url 'products' %}?category=Sunglasses" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price (low to high)</a>
+                <a href="{% url 'products' %}?sort=price&direction=desc" class="dropdown-item">By Price (high to low)</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Frames</a>
             </div>
         </li>
