@@ -40,6 +40,7 @@ setting up base.html
 index.html
 
 Ignoring adding sizes to products as majority of stock single pieces / handmade, one size available.
+possibly return to add functionality later (adding products part 4)
 
 CHANGE FONT FROM LATO to custom!
 Merriweather chosen
