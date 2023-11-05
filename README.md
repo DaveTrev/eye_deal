@@ -39,6 +39,8 @@ setup all auth
 setting up base.html
 index.html
 
+Ignoring adding sizes to products as majority of stock single pieces / handmade, one size available.
+
 CHANGE FONT FROM LATO to custom!
 Merriweather chosen
 "Meriweather is quite popular and one of the widely used brand fonts for websites. Especially for the e-commerce ones. Indeed, it is pleasant to look at because of its condensed letterforms. Also, it is ideal for font pairings. If you wish to have a high-end brand image, then Merriweather is the best fonts style for it!"
@@ -58,7 +60,7 @@ removing male / female dropdown toggle as filtering not working on gender? retur
             </div>
         </li>
 
-I noticed you have a field for gender but also there is category class. 
+I noticed you have a field for gender but also there is category class. (with thanks to Dayana for this one)
 If gender is part of your product model then you will need to refine your products by gender instead of category. 
 You could also create a separate class gender like a subcategory connected to your product and filter that way too
 
