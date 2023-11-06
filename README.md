@@ -16,6 +16,12 @@ Reviews
 3. ui/ux updates
 4. Finishing documentation, SEO, meta data, facebook page, 
 
+CUSTOM MODELS (potentially):
+contact us page
+reviews
+journal for site owner
+wishlist for products?
+
 sprints oct/nov 23
 1. (29 - 4) product setup filter & sort
 2. (5- 11) shopping bag - adding products
