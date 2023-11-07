@@ -72,6 +72,10 @@ If gender is part of your product model then you will need to refine your produc
 You could also create a separate class gender like a subcategory connected to your product and filter that way too
 
 
+https://elfsight.com/blog/how-to-create-recent-sales-notification-popup/#:~:text=The%20Recent%20Sales%20Notification%20popup,many%20e%2Dcommerce%20businesses%20nowadays.
+
+Popup? 
+
 credits
 boutique ado project used a boilerplate
 use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
