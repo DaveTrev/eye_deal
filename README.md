@@ -72,6 +72,8 @@ If gender is part of your product model then you will need to refine your produc
 You could also create a separate class gender like a subcategory connected to your product and filter that way too
 
 
+Bug - update number not reflecting in shopping bag, followed ado, number not reflecting items. return to fix!
+
 https://elfsight.com/blog/how-to-create-recent-sales-notification-popup/#:~:text=The%20Recent%20Sales%20Notification%20popup,many%20e%2Dcommerce%20businesses%20nowadays.
 
 Popup? 
@@ -87,6 +89,11 @@ Any product is used for educational purposes only
 Generating sku codes
 https://www.3dsellers.com/free-tools/sku-generator
 
+https://releases.jquery.com/
+
+django documentation - bag_tools
+
+
 checklist taken with thanks from https://github.com/Shaga-Matula
 ## Tasks :
 - [ ] <label><input type="checkbox" disabled /> Task 1 : ###############</label>
@@ -96,4 +103,11 @@ checklist taken with thanks from https://github.com/Shaga-Matula
 - [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
 - [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
 
-Cups of coffee = 24
+
+Been a day fixing this...  so dont fall into this one... its remove in shoping basket if you cut and paste you will get and error...  here is the fix..    bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
+js code: var url = `/bag/remove/${itemId}/`;
+My code:
+bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
+js code: let url = `remove/${itemId}/`;   - remove this part /bag/
+
+Cups of coffee = 25
