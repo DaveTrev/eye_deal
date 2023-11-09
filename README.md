@@ -11,6 +11,7 @@ Payment
 Profile
 Admin
 Reviews
+
 1. Full CRUD
 2. checkout functionality 
 3. ui/ux updates
@@ -23,8 +24,8 @@ journal for site owner
 wishlist for products?
 
 sprints oct/nov 23
-1. (29 - 4) product setup filter & sort
-2. (5- 11) shopping bag - adding products
+1. (29 - 4) product setup filter & sort - done
+2. (5- 11) shopping bag - adding products - done
 3. (12-18) checkout / stripe
 4. (19 - 25) profiles deploy / journal / contact us
 5. (26 - 2) style / readme / ecomm / robots / fb page / tidy submit
