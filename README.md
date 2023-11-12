@@ -30,6 +30,8 @@ sprints oct/nov 23
 4. (19 - 25) profiles deploy / journal / contact us
 5. (26 - 2) style / readme / ecomm / robots / fb page / tidy submit
 
+remember - mailchimp, meta descriptions, sitemap, robot.txt, 404
+
 landing page images
 https://www.pexels.com/photo/two-clear-eyeglasses-with-gray-frames-1493112/
 https://www.pexels.com/photo/portrait-photo-of-woman-in-yellow-turtleneck-sweater-and-eyeglasses-in-front-of-blue-background-3765124/
@@ -111,4 +113,4 @@ My code:
 bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
 js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
-Cups of coffee = 27
+Cups of coffee = 28
