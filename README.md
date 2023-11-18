@@ -85,6 +85,9 @@ https://elfsight.com/blog/how-to-create-recent-sales-notification-popup/#:~:text
 
 Popup? 
 
+Bug - allauth login page not loading, after much searching and with help from the CI tutor support, clearing the cookies / cache helped to display the login page
+
+
 credits
 boutique ado project used a boilerplate
 use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
