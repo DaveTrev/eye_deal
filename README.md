@@ -28,7 +28,7 @@ sprints oct/nov 23
 2. (5- 11) shopping bag - adding products - done
 3. (12-18) checkout / stripe
 4. (19 - 25) profiles deploy / journal / contact us
-remember - mailchimp, meta descriptions, sitemap, robot.txt, 404 facebook mockup
+remember - mailchimp, meta descriptions, sitemap, robot.txt, 404 facebook mockup, favicon
 5. (26 - 2) style / readme / ecomm / robots / fb page / tidy submit
 
 
@@ -114,4 +114,4 @@ My code:
 bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
 js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
-Cups of coffee = 33
+Cups of coffee = 35
