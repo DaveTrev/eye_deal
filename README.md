@@ -41,6 +41,9 @@ https://www.pexels.com/photo/stylish-eyeglasses-placed-on-beige-surface-4226877/
 wireframe 
 https://wireframepro.mockflow.com/editor.jsp?editor=on&publicid=Me55d7974c8b9921ba0e8317d6a0614db1697961926877&perm=Create&projectid=MxuLS39jMh&spaceid=MqwXAeI7Lpb&ptitle=p5%20-%20eyedeal&bgcolor=white&category=web&pcompany=C7b4955d147c64bb6990d17826f0d480e&space=MqwXAeI7Lpb#/page/188b81619924412797f2a96d32f9d838
 
+Bootstrap Product List Carousel for Ecommerce Website
+https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=product-list-carousel-for-ecommerce-website
+
 Erd
 import diagram
 
