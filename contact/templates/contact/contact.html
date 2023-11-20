@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+  <h1>Contact Us</h1>
+
+  <h3>Common questions:</h3>
+  <ul class="list-group">
+    <li class="list-group-item">Prescription and Fit: Clients could have concerns about getting the right prescription 
+        and making sure their glasses fit them well.</li>
+    <li class="list-group-item">Quality Concerns: When considering an internet purchase, 
+        some clients might want assurances regarding the glasses' quality.</li>
+    <li class="list-group-item">Customization and Personalization: Questions concerning the possibility of tailoring glasses 
+        to meet specific requirements and preferences may come up.</li>
+    <li class="list-group-item">Information and Help: Clients can look for advice on choosing the appropriate frames, comprehending available lenses,
+         and getting help all the way through the buying procedure.</li>
+    <li class="list-group-item">Returns and Exchanges: Inquiries regarding the procedure for returns or exchanges</li>
+  </ul>
+  <form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+  </form>
+{% endblock %}

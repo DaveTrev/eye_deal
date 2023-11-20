@@ -126,6 +126,17 @@ https://reintech.io/blog/building-image-gallery-in-django
 https://unsplash.com/photos/silver-framed-eyeglasses-on-wooden-surface-KZa_RBuBLu4 
 404 page image
 
+contact us form:
+https://medium.com/@k.lancemeister/django-crispy-forms-cb6f97200299
+https://www.youtube.com/watch?v=w4ilq6Zk-08
+
+SEO keywords https://www.wordtracker.com/search
+
+https://www.shapedivider.app/
+
+adding wishlist to profile app
+https://stackoverflow.com/questions/51230409/how-to-assign-userprofile-with-wishlist-without-using-a-default-user
+
 Generating sku codes
 https://www.3dsellers.com/free-tools/sku-generator
 
@@ -150,4 +161,4 @@ My code:
 bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
 js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
-Cups of coffee = 43
+Cups of coffee = 45
