@@ -1,0 +1,4 @@
+User-agent: *
+isallow: /accounts/
+Disallow: /bag/
+Sitemap:

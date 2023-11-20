@@ -113,6 +113,9 @@ design eyewear group https://designeyeweargroup.kontainer.com/folder/4250#token=
 orgreen optics https://orgreenoptics.presscloud.com/digitalshowroom/#/gallery
 Any product is used for educational purposes only
 
+https://unsplash.com/photos/silver-framed-eyeglasses-on-wooden-surface-KZa_RBuBLu4 
+404 page image
+
 Generating sku codes
 https://www.3dsellers.com/free-tools/sku-generator
 
