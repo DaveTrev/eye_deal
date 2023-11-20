@@ -110,8 +110,18 @@ boutique ado project used a boilerplate
 use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
 
 design eyewear group https://designeyeweargroup.kontainer.com/folder/4250#token=s4lkLCrIra&type=direct
+
 orgreen optics https://orgreenoptics.presscloud.com/digitalshowroom/#/gallery
 Any product is used for educational purposes only
+
+https://claritydev.net/blog/adding-a-blog-to-your-django-website
+adding a blog
+
+adding a contact us form 
+https://www.twilio.com/blog/build-contact-form-python-django-twilio-sendgrid
+
+building an image gallery with django
+https://reintech.io/blog/building-image-gallery-in-django
 
 https://unsplash.com/photos/silver-framed-eyeglasses-on-wooden-surface-KZa_RBuBLu4 
 404 page image
@@ -140,4 +150,4 @@ My code:
 bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
 js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
-Cups of coffee = 41
+Cups of coffee = 43
