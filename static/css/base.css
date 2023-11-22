@@ -341,3 +341,12 @@ a.category-badge > span.badge:hover {
         height: calc(100vh - 116px);
     }
 }
+
+/* success page */
+
+.success {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150%
+}
