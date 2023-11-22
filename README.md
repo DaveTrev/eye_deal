@@ -105,6 +105,8 @@ Now that your environment variables have been set in your env.py file, and the f
 SECRET_KEY = os.environ.get('SECRET_KEY')
 Make sure you save all your files before testing if it works.
 
+bug - on mobile contact us success page hidden by navbar, return to fix
+
 credits
 boutique ado project used a boilerplate
 use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
