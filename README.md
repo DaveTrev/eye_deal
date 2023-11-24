@@ -147,6 +147,8 @@ https://releases.jquery.com/
 django documentation - bag_tools
 
 
+https://cubitts.com/blogs/journal?TN - inspo for journal app
+
 checklist taken with thanks from https://github.com/Shaga-Matula
 ## Tasks :
 - [ ] <label><input type="checkbox" disabled /> Task 1 : ###############</label>
@@ -163,4 +165,4 @@ My code:
 bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
 js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
-Cups of coffee = 45
+Cups of coffee = 46
