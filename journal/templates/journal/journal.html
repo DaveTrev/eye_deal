@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_meta %}
+<meta name="keywords" content="jounral, blog, posts">
+{% endblock %}
+
+
+{% block content %}
+
+<div class="container-fluid">
+    <div class="row">
+        <!-- Blog Entries Column -->
+        <div class="col-12 mt-3 left">
+            <div class="row">
+            {% if post_list %}
+            {% for post in post_list %}
+                <div class="col-md-6 col-lg-4">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="image-container">
+                                {% if post.image %}
+                                <img class="card-img-top" src=" {{ post.image.url }}" alt="{{ post.title }} image">
+                                {% else %}
+                                <img class="card-img-top"
+                                    src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg" alt="Default blog image">
+                                {% endif %}
+                                <div class="journal-flash">
+                                    <p class="author">Author: {{ post.author }}</p>
+                                </div>
+                            </div>
+                            <a href="{% url 'post_detail' post.slug %}" class="post-link">
+                                <h2 class="card-title">{{ post.title }}</h2>
+                                <p class="card-text">{{ post.excerpt }}</p>
+                            </a>
+                            <hr>
+                            <p class="card-text h6">{{ post.created_on }} <i class="far fa-heart"></i>
+                                {{ post.number_of_likes }}
+                                {% if request.user.is_superuser %}
+                                <small class="ml-3">
+                                    <a class="text-yellow" href="{% url 'edit_post' post.slug %}"><i class="fa-solid fa-pen-to-square"></i></a> |
+                                    <a class="text-danger" href="{% url 'delete_post' post.slug %}"><i class="fa-regular fa-trash-can"></i></a>
+                                </small>
+                                {% endif %}</p>
+                        </div>
+                    </div>
+                </div>
+            {% if forloop.counter|divisibleby:3 %}
+            </div>
+            <div class="row">
+            {% endif %}
+            {% endfor %}
+            {% else %}
+            <div class="col-md-4">
+               <h1 class="text-center">We're working on new content</h1>
+            </div>
+            {% endif %}
+            </div>
+        </div>
+    </div>
+    {% if is_paginated %}
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            {% if page_obj.has_previous %}
+            <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>
+            {% endif %}
+            {% if page_obj.has_next %}
+            <li><a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>
+
+            {% endif %}
+        </ul>
+    </nav>
+    {% endif %}
+</div>
+
+{% endblock %}

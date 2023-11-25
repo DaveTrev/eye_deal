@@ -132,6 +132,12 @@ contact us form:
 https://medium.com/@k.lancemeister/django-crispy-forms-cb6f97200299
 https://www.youtube.com/watch?v=w4ilq6Zk-08
 
+reviews
+https://michaelstromer.nyc/books/intro-to-django/django-reviews
+
+wishlist
+https://data-flair.training/blogs/python-django-wishlist-app/
+
 SEO keywords https://www.wordtracker.com/search
 
 https://www.shapedivider.app/
