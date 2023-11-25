@@ -128,6 +128,10 @@ https://reintech.io/blog/building-image-gallery-in-django
 https://unsplash.com/photos/silver-framed-eyeglasses-on-wooden-surface-KZa_RBuBLu4 
 404 page image
 
+journal / blog
+https://github.com/adamgilroy22/retro-reboot/tree/main
+CI I think therefore i blog
+
 contact us form:
 https://medium.com/@k.lancemeister/django-crispy-forms-cb6f97200299
 https://www.youtube.com/watch?v=w4ilq6Zk-08
