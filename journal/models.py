@@ -2,6 +2,31 @@ from django.db import models
 from django.contrib.auth.models import User
 
 
+class Category(models.Model):
+    ARTICLE = 'article'
+    BLOG = 'blog'
+    PODCAST = 'podcast'
+    TYPE_CHOICES = [
+        (ARTICLE, 'Article'),
+        (BLOG, 'Blog'),
+        (PODCAST, 'Podcast'),
+    ]
+    name = models.CharField(max_length=200)
+    slug = models.SlugField(unique=True, max_length=200)
+    description = models.TextField(blank=True)
+    type = models.CharField(
+        max_length=10,
+        choices=TYPE_CHOICES,
+        default=ARTICLE,
+    )
+
+    class Meta:
+        verbose_name_plural = 'categories'
+
+    def __str__(self):
+        return self.name
+
+
 class Post(models.Model):
     title = models.CharField(max_length=200, unique=True)
     slug = models.SlugField(max_length=200, unique=True)
@@ -14,6 +39,7 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     published = models.BooleanField(default=False)
     likes = models.ManyToManyField(User, related_name='blog_likes', blank=True)
+    categories = models.ManyToManyField(Category, related_name="posts")
 
     class Meta:
         ordering = ['-created_on']

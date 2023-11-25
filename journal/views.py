@@ -104,7 +104,7 @@ def add_post(request):
             form.instance.author = request.user
             post = form.save()
             messages.info(request, 'Successfully added post!')
-            return redirect(reverse('blog'))
+            return redirect(reverse('journal'))
         else:
             messages.error(request, 'Failed to add post. Please ensure the \
             form is valid.')
@@ -121,7 +121,7 @@ def add_post(request):
 
 @login_required
 def edit_post(request, slug):
-    """ Edit a blog post """
+    """ Edit a journal post """
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('journal'))

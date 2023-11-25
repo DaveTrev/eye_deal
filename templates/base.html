@@ -75,6 +75,7 @@
                             {% if request.user.is_authenticated %}
                                 {% if request.user.is_superuser %}
                                     <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
+                                    <a href="{% url 'add_post' %}" class="dropdown-item">Add New Blog Post</a>
                                 {% endif %}
                                 <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
                                 <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
@@ -82,6 +83,7 @@
                                 <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
                                 <a href="{% url 'account_login' %}" class="dropdown-item">Login</a>
                             {% endif %}
+                            <a href="{% url 'contact' %}" class="dropdown-item">Contact Us</a>
                         </div>
                     </li>
                     <li class="list-inline-item">
