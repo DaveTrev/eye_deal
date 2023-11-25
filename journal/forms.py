@@ -10,8 +10,8 @@ class PostForm(forms.ModelForm):
     """
     class Meta:
         model = Post
-        fields = ('title', 'slug', 'content',
-                  'excerpt', 'image', 'published',)
+        fields = ('title', 'slug', 'categories', 'content',
+                  'excerpt', 'image', 'published', )
 
     content = forms.CharField(widget=SummernoteWidget())
 
