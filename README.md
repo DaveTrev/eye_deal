@@ -80,6 +80,8 @@ You could also create a separate class gender like a subcategory connected to yo
 
 
 Bug - update number not reflecting in shopping bag, followed ado, number not reflecting items. return to fix!
+Roman From Ci Tutor Team helped me spot this one!
+value="{{ item.quantity }}" tou your increment/decrement form in bag.html
 
 https://elfsight.com/blog/how-to-create-recent-sales-notification-popup/#:~:text=The%20Recent%20Sales%20Notification%20popup,many%20e%2Dcommerce%20businesses%20nowadays.
 
