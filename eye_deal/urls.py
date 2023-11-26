@@ -30,7 +30,7 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
     path('journal/', include('journal.urls')),
     path('', include('contact.urls')),
-    path('reviews/', include('reviews.urls')),
+    path('', include('reviews.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 

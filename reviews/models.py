@@ -1,10 +1,20 @@
 from django.db import models
+from django.core.validators import MinValueValidator
+from django.core.exceptions import ValidationError
+
+def validate_rating(value):
+    if value < 0 or value > 5:
+        raise ValidationError("Please rate from 1 to 5 stars.")
 
 
 class Review(models.Model):
-    customer_name = models.Charfield(max_length=50, null=False, blank=False)
+    customer_name = models.CharField(max_length=50, null=False, blank=False)
     email = models.EmailField(null=False, blank=False)
-    rating = models.DecimalField(max_digits=6, decimal_places=2, null=False, blank=False)
+    rating = models.DecimalField(
+        max_digits=6,
+        decimal_places=2,
+        validators=[MinValueValidator(0), validate_rating]
+    )
     product_type = models.CharField(max_length=50, choices=[('Glasses', 'Glasses'),
                                                     ('Sunglasses',
                                                     'Sunglasses')])

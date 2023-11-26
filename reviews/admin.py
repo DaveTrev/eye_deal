@@ -8,7 +8,7 @@ class ReviewsAdmin(admin.ModelAdmin):
         'created_on',
         'product_type',
         'rating',
-        'body',
+        'body_text',
     )
 
     ordering = ('created_on',)
