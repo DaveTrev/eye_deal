@@ -158,6 +158,8 @@ https://releases.jquery.com/
 
 django documentation - bag_tools
 
+generating returns policy, privacy policy https://app.termsfeed.com/
+
 
 https://cubitts.com/blogs/journal?TN - inspo for journal app
 
