@@ -1,14 +1,33 @@
 html {
-    height: 100%
-}
+    position: relative;
+    min-height: 100%;
+      }
+
 
 body {
     background: url('/media/index-g.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: calc(90vh - 164px);
     color: #555;
-    font-family: 'Merriweather';
+    font-family: 'Merriweather', sans-serif;
+    margin-bottom: 60px; /* Margin bottom by footer height */
 }
+
+.background-image {
+    background-image: url('/media/index-g.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: #eee;
+    z-index: -1;
+  }
 
 /* from Bulma / ado */
 .icon {
@@ -169,6 +188,37 @@ a.category-badge > span.badge:hover {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+/* ----------------------------------------------------- Footer */
+
+footer {
+    background-color: white;
+    color: #000;
+    bottom: 0;
+    clear: both;
+  }
+  
+  .footer-list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000;
+  }
+  
+  .footer-text {
+    font-size: 0.8em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-link {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+    color: #000;
+  }
 
 
 /* -------------------------------- Media Queries taken from ado project */

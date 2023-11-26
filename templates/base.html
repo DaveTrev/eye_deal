@@ -144,37 +144,37 @@
     {% endblock %}
 
     {% block footer %}
-<footer class="bg-white w-100 text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <div class="footer-list">
-          <div>
-            <a href="#" class="footer-link">FAQ's</a>
-          </div>
-          <div>
-            <a href="#" class="footer-link">Returns Policy</a>
-          </div>
+    <footer class="footer w-100 text-center">
+        <div class="container">
+          <span class="text-muted"><div class="row">
+            <div class="col">
+              <div class="footer-list">
+                <div>
+                  <a href="#" class="footer-link">FAQ's</a>
+                </div>
+                <div>
+                  <a href="#" class="footer-link">Returns Policy</a>
+                </div>
+              </div>
+            </div>
+            <div class="col footer-text">
+              <p>&copy; Copyright 2023. Davetrev<br>
+                <small>No commercial revenue is generated from the project.</small>
+              </p>
+            </div>
+            <div class="col">
+              <div class="footer-list">
+                <div>
+                  <a href="{% url 'contact' %}" class="footer-link">Contact Us</a>
+                </div>
+                <div>
+                  <a href="#" class="footer-link">Privacy Policy</a>
+                </div>
+              </div>
+            </div>
+          </div></span>
         </div>
-      </div>
-      <div class="col footer-text">
-        <p>&copy; Copyright 2023. Davetrev<br>
-          <small>No commercial revenue is generated from the project.</small>
-        </p>
-      </div>
-      <div class="col">
-        <div class="footer-list">
-          <div>
-            <a href="{% url 'contact' %}" class="footer-link">Contact Us</a>
-          </div>
-          <div>
-            <a href="#" class="footer-link">Privacy Policy</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+      </footer>
 {% endblock %}
 
     {% block postloadjs %}
