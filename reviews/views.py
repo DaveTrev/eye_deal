@@ -16,15 +16,16 @@ def reviews(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Thank you for posting a review!')
-            return redirect(reverse('reviews'))
+            return redirect('reviews')
         else:
-            form = PostReviewForm()
+            messages.warning(request, 'Failed to post the review. Score is out of 5/5.')
+    else:
+        form = PostReviewForm()
 
-    form = PostReviewForm()
     template = 'reviews/reviews.html'
-
     context = {
         'reviews': reviews,
         'form': form,
     }
-    return render(request, 'reviews/reviews.html', context)
+    return render(request, template, context)
+
