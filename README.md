@@ -1,6 +1,8 @@
 Intro
 Creating a full stack ecomm site for a spectacle frame retailer
 
+live link https://eye-deal-e27624539e49.herokuapp.com/
+
 Milestones
 Home
 Registration
@@ -184,6 +186,8 @@ https://miniwebtool.com/django-secret-key-generator/
 django documentation - bag_tools
 
 generating returns policy, privacy policy https://app.termsfeed.com/
+
+on mail used for store email
 
 
 https://cubitts.com/blogs/journal?TN - inspo for journal app
