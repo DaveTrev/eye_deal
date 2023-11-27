@@ -109,6 +109,28 @@ Make sure you save all your files before testing if it works.
 
 bug - on mobile contact us success page hidden by navbar, return to fix
 
+
+
+migration
+Hi David, the only data that you really need to be concerned about is your products, Users should not be transferred over as this can lead to problems (I know this from debugging so many of these issues)
+
+you can follow these steps for the app that you want to transfer the data over, if you have more than 1 app that you want to transfer over, then do them separately:
+
+​﻿1. Make sure you are connected to the local Sqlite3 database in Gitpod.
+
+
+​﻿2. Make a backup of the app's data that you want. For the example, we will use the "product" app.
+﻿- (type this command, do not copy and paste):
+﻿- python3 manage.py dumpdata products > products.json
+​
+​﻿3. Make sure you are connected to the online Postgres database in Heroku.
+
+
+​﻿﻿4. Transfer the backup json file data that you just created.
+﻿- (type this command, do not copy and paste):
+﻿- python3 manage.py loaddata products.json
+​﻿﻿5. Repeat for any other apps you wish to transfer.
+
 credits
 boutique ado project used a boilerplate
 use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
@@ -162,6 +184,9 @@ generating returns policy, privacy policy https://app.termsfeed.com/
 
 
 https://cubitts.com/blogs/journal?TN - inspo for journal app
+
+designing for the visually impaired / low vision
+https://fuzzymath.com/blog/improve-accessibility-for-visually-impaired-users/
 
 checklist taken with thanks from https://github.com/Shaga-Matula
 ## Tasks :
