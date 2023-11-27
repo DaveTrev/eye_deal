@@ -1,4 +1,4 @@
-User-agent: *
-isallow: /accounts/
+User-agent *
+Disallow: /accounts/
 Disallow: /bag/
-Sitemap:
+Sitemap: https://eye-deal-e27624539e49.herokuapp.com/

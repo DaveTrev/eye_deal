@@ -183,6 +183,9 @@ https://releases.jquery.com/
 django key generator
 https://miniwebtool.com/django-secret-key-generator/
 
+xmlsitemap
+https://www.xml-sitemaps.com/
+
 django documentation - bag_tools
 
 generating returns policy, privacy policy https://app.termsfeed.com/
