@@ -1,11 +1,9 @@
 from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
-from django.contrib.auth.decorators import login_required
 from .models import Review
 from .forms import PostReviewForm
 
 
-@login_required
 def reviews(request):
     """ A view to return the reviews page """
 
