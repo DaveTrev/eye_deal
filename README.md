@@ -178,6 +178,9 @@ https://www.3dsellers.com/free-tools/sku-generator
 
 https://releases.jquery.com/
 
+django key generator
+https://miniwebtool.com/django-secret-key-generator/
+
 django documentation - bag_tools
 
 generating returns policy, privacy policy https://app.termsfeed.com/
@@ -204,4 +207,4 @@ My code:
 bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
 js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
-Cups of coffee = 53
+Cups of coffee = 54
