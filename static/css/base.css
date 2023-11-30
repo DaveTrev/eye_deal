@@ -195,6 +195,13 @@ a.category-badge>span.badge:hover {
     overflow-y: auto;
 }
 
+/* ----------------------------------------------------- Reviews */
+
+.recent-reviews {
+    max-height: 550px;
+    overflow-y: auto;
+  }
+
 /* ----------------------------------------------------- Footer */
 
 footer {
@@ -203,8 +210,7 @@ footer {
     bottom: 0;
     clear: both;
     z-index: 0;
-    position: fixed;
-    left: 0;
+    position: relative;
 }
 
 .footer-list {
