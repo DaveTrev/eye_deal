@@ -196,6 +196,7 @@ footer {
     color: #000;
     bottom: 0;
     clear: both;
+    z-index: 0;
   }
   
   .footer-list {
@@ -521,3 +522,10 @@ footer {
         padding: .25rem .5rem !important;
     }
 }
+
+/*Mailchimp form style */
+#mc_embed_signup{
+    background:#fff; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    width: 600px;}
