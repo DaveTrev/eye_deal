@@ -1,7 +1,7 @@
 html {
     position: relative;
     min-height: 100%;
-      }
+}
 
 
 body {
@@ -10,13 +10,18 @@ body {
     height: calc(90vh - 164px);
     color: #555;
     font-family: 'Merriweather', sans-serif;
-    margin-bottom: 60px; /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    /* Margin bottom by footer height */
 }
 
 .background-image {
     background-image: url('/media/index-g.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.content {
+    margin: 40px;
   }
 
 .overlay {
@@ -27,7 +32,7 @@ body {
     position: fixed;
     background: #eee;
     z-index: -1;
-  }
+}
 
 /* from Bulma / ado */
 .icon {
@@ -59,7 +64,8 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
+    /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
@@ -102,7 +108,7 @@ body {
     z-index: -1;
 }
 
-a.category-badge > span.badge:hover {
+a.category-badge>span.badge:hover {
     background: #212529 !important;
     color: #fff !important;
 }
@@ -140,10 +146,10 @@ a.category-badge > span.badge:hover {
 
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
@@ -197,29 +203,31 @@ footer {
     bottom: 0;
     clear: both;
     z-index: 0;
-  }
-  
-  .footer-list {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    position: fixed;
+    left: 0;
+}
+
+.footer-list {
+    padding-top: 10px;
+    padding-bottom: 10px;
     color: #000;
-  }
-  
-  .footer-text {
+}
+
+.footer-text {
     font-size: 0.8em;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  
-  .footer-link {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-link {
     text-decoration: none;
     color: #000;
-  }
-  
-  .footer-link:hover {
+}
+
+.footer-link:hover {
     text-decoration: underline;
     color: #000;
-  }
+}
 
 
 /* -------------------------------- Media Queries taken from ado project */
@@ -227,24 +235,24 @@ footer {
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
-      max-width: 80%;
+        max-width: 80%;
     }
-  }
-  
-  /* fixed top navbar only on medium and up */
-  @media (min-width: 992px) {
-      .fixed-top-desktop-only {
-          position: fixed;
-          top: 0;
-          right: 0;
-          left: 0;
-          z-index: 1030;
-      }
-  
-      .header-container {
-          padding-top: 164px;
-      }
-  }
+}
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 164px;
+    }
+}
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
@@ -260,8 +268,10 @@ footer {
 /* Allauth form formatting */
 
 .allauth-form-inner-content p {
-    margin-top: 1.5rem; /* mt-4 */
-    color: #6c757d; /* text-secondary */
+    margin-top: 1.5rem;
+    /* mt-4 */
+    color: #6c757d;
+    /* text-secondary */
 }
 
 .allauth-form-inner-content input {
@@ -279,8 +289,8 @@ footer {
 
 .allauth-form-inner-content button,
 .allauth-form-inner-content input[type='submit'] {
-	/* btn */
-	display: inline-block;
+    /* btn */
+    display: inline-block;
     font-weight: 400;
     color: #fff;
     text-align: center;
@@ -297,18 +307,19 @@ footer {
     border-radius: 0;
 
     /* standard bootstrap btn transitions */
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .allauth-form-inner-content button:hover,
-.allauth-form-inner-content input[type='submit']:hover {	
-	color: #fff;
+.allauth-form-inner-content input[type='submit']:hover {
+    color: #fff;
     background-color: #222;
     border-color: #222;
 }
 
 .allauth-form-inner-content a {
-	color: #17a2b8; /* text-info */
+    color: #17a2b8;
+    /* text-info */
 }
 
 /* fixed top navbar only on medium and up */
@@ -518,14 +529,16 @@ footer {
         font-size: .75rem;
     }
 
-    .increment-qty, .decrement-qty {
+    .increment-qty,
+    .decrement-qty {
         padding: .25rem .5rem !important;
     }
 }
 
 /*Mailchimp form style */
-#mc_embed_signup{
-    background:#fff; 
-    clear:left; 
-    font:14px Helvetica,Arial,sans-serif; 
-    width: 600px;}
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica, Arial, sans-serif;
+    width: 600px;
+}
