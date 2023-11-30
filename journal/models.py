@@ -39,7 +39,8 @@ class Post(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     published = models.BooleanField(default=False)
     likes = models.ManyToManyField(User, related_name='blog_likes', blank=True)
-    categories = models.ManyToManyField(Category, related_name='posts')
+    categories = models.ManyToManyField(Category, related_name='posts', choices=[('article', 'Article'),
+                                                    ('blog', 'Blog'), ('podcast', 'Podcast')])
 
     class Meta:
         ordering = ['-created_on']

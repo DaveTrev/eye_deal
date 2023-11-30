@@ -154,6 +154,8 @@ https://reintech.io/blog/building-image-gallery-in-django
 https://unsplash.com/photos/silver-framed-eyeglasses-on-wooden-surface-KZa_RBuBLu4 
 404 page image
 
+https://www.pexels.com/photo/red-sunglasses-on-pink-surface-1532244/
+
 journal / blog
 https://github.com/adamgilroy22/retro-reboot/tree/main
 CI I think therefore i blog
