@@ -30,11 +30,11 @@
       <h3>Recent Reviews</h3>
       <div class="recent-reviews">
         {% for review in reviews %}
-        <p>Name: {{ review.full_name }}</p>
+        <p>Name: {{ review.customer_name }}</p>
         <p>Date: {{ review.created_on }}</p>
         <p>Product: {{ review.product_type }}</p>
         <p>Rating: <i class="fas fa-star mr-1"></i>{{ review.rating }} / 5</p>
-        <p>Comment: {{ review.body }}</p>
+        <p>Comment: {{ review.body_text }}</p>
         <hr>
         {% endfor %}
       </div>

@@ -548,7 +548,6 @@ footer {
 #mc_embed_signup {
     background: #fff;
     clear: left;
-    font: 10px Helvetica, Arial, sans-serif;
-    width: 100px;
-    height: 100px;
+    font: 20px Helvetica, Arial, sans-serif;
+    width: 400px;
 }
