@@ -195,6 +195,20 @@ generating returns policy, privacy policy https://app.termsfeed.com/
 on mail used for store email
 
 
+
+footer fix
+<div class="container text-center">
+  <div class="row row-cols-4">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col-6">Column</div>
+    <div class="col">Column</div>
+  </div>
+</div>
+
+
+
+
 https://cubitts.com/blogs/journal?TN - inspo for journal app
 
 designing for the visually impaired / low vision
