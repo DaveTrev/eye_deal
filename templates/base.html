@@ -18,11 +18,17 @@
     {% endblock %}
 
     {% block corecss %}
+       <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- Google Fonts -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap">
+    <!-- MailChimp -->
     <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+    <!-- CSS file location -->
     <link rel="stylesheet" href="{% static 'css/base.css' %}">
+     <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'favicon/favicon.ico' %}">
     {% endblock %}
 
     {% block extra_css %}
@@ -46,7 +52,7 @@
 
     {% block extra_js %}
     {% endblock %}
-
+    
     <title>Eye-Deal Optics {% block extra_title %}{% endblock %}</title>
 </head>
 
