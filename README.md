@@ -188,6 +188,9 @@ https://miniwebtool.com/django-secret-key-generator/
 xmlsitemap
 https://www.xml-sitemaps.com/
 
+Favicon.io 
+https://favicon.io/favicon-generator/e
+
 django documentation - bag_tools
 
 generating returns policy, privacy policy https://app.termsfeed.com/
@@ -230,4 +233,4 @@ My code:
 bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
 js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
-Cups of coffee = 56
+Cups of coffee = 57
