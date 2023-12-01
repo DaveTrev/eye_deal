@@ -12,6 +12,7 @@ body {
     font-family: 'Merriweather', sans-serif;
     margin-bottom: 60px;
     /* Margin bottom by footer height */
+
 }
 
 .background-image {
@@ -211,18 +212,20 @@ footer {
     clear: both;
     z-index: 0;
     position: relative;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .footer-list {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: #000;
 }
 
 .footer-text {
     font-size: 0.8em;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .footer-link {
@@ -545,6 +548,7 @@ footer {
 #mc_embed_signup {
     background: #fff;
     clear: left;
-    font: 14px Helvetica, Arial, sans-serif;
-    width: 250px;
+    font: 10px Helvetica, Arial, sans-serif;
+    width: 100px;
+    height: 100px;
 }
