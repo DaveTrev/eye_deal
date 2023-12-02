@@ -5,11 +5,12 @@ class Category(models.Model):
 
     class Meta:
         verbose_name_plural = 'Categories'
-        
+
     name = models.CharField(max_length=254)
 
     def __str__(self):
         return self.name
+
 
 class Product(models.Model):
     name = models.CharField(max_length=254)
@@ -29,8 +30,8 @@ class Product(models.Model):
                                                          'Titanium')])
     shape = models.CharField(max_length=50)
     size = models.CharField(max_length=50)
-    category = models.ForeignKey('Category', on_delete=models.SET_NULL, null=True,
-                                 blank=True)
+    category = models.ForeignKey('Category', on_delete=models.SET_NULL,
+                                 null=True, blank=True)
 
     def __str__(self):
         return self.name
