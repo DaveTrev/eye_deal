@@ -210,6 +210,10 @@ generating returns policy, privacy policy https://app.termsfeed.com/
 on mail used for store email
 
 
+webhook handler pep8 linter
+https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments
+#noqa added 
+
 
 footer fix
 <div class="container text-center">
