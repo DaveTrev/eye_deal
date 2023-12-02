@@ -8,8 +8,9 @@ CONTACT_REASONS = (
     ("other", "Other"),
 )
 
+
 class Contact(models.Model):
-    
+
     contact_reason = models.CharField(
         max_length=100,
         choices=CONTACT_REASONS,

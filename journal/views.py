@@ -74,6 +74,7 @@ class PostDetail(View):
             },
         )
 
+
 class PostLike(View):
     """
     Like a journal post and give user a message
@@ -90,6 +91,7 @@ class PostLike(View):
             messages.info(request, 'Post liked!')
 
         return HttpResponseRedirect(reverse('post_detail', args=[slug]))
+
 
 @login_required
 def add_post(request):
@@ -166,4 +168,3 @@ def delete_post(request, slug):
     }
 
     return render(request, template, context)
-

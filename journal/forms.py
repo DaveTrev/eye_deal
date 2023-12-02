@@ -4,6 +4,7 @@ from django_summernote.widgets import SummernoteWidget
 from django_summernote.fields import SummernoteTextFormField
 from django import forms
 
+
 class PostForm(forms.ModelForm):
     """
     Create a new post using Post model

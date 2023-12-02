@@ -3,10 +3,11 @@ from .models import Contact
 from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Submit, Layout, Fieldset, ButtonHolder
 
+
 class ContactForm(forms.ModelForm):
     class Meta:
         model = Contact
-        fields = ['contact_reason', 'name', 'email', 'message',]
+        fields = ['contact_reason', 'name', 'email', 'message', ]
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
