@@ -33,13 +33,12 @@
         <p>Name: {{ review.customer_name }}</p>
         <p>Date: {{ review.created_on }}</p>
         <p>Product: {{ review.product_type }}</p>
-        <p>Rating: <i class="fas fa-star mr-1"></i>{{ review.rating }} / 5</p>
+        <p>Rating: <i class="fas fa-star mr-1"></i>{{ review.rating|floatformat:"1" }} / 5</p>
         <p>Comment: {{ review.body_text }}</p>
         <hr>
         {% endfor %}
       </div>
     </div>
-    <!-- Leave a Review -->
    <!-- Leave a Review -->
    <div class="col-12 col-lg-6">
     <h3>Leave a Review</h3>

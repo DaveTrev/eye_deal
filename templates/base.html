@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Online Glasses Shop, Selling boutique handmade eyewear.">
+    <meta name="description" content="Online Glasses Retailer, Selling boutique handmade eyewear.">
     <meta name="keywords" content="Eyeglasses, Eyewear, spectacle frames, Designer frames, Prescription sunglasses, Frame fitting, Metal frames, Acetate frames,
                     Plastic frames, Men's frames, Women's frames, Unisex frames">
     {% endblock %}
@@ -165,38 +165,110 @@
     {% endblock %}
 
     {% block footer %}
-    <!--Sticky footer template-->
-    <footer class="footer mt-auto py-3 bg-light fixed-bottom">
-        <div class="container">
-          <span class="text-muted"><div class="row">
-            <div class="col">
-                <div class="footer-list">
-                    <div>
-                        <a href="{% url 'returns' %}" class="footer-link">Returns Policy</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col footer-text">
-                <p>&copy; Copyright 2023. Davetrev<br>
-                    <small>No commercial revenue is generated from the project.</small>
-                </p>
-            </div>
-            <div class="col footer-text footer-list footer-link">
-                <i class="fa-brands fa-facebook contact-icon"></i>
-                <a href="https://www.facebook.com/profile.php?id=61554309323903" target="_blank"
-                    rel="noopener nofollow">Eye-Deal
-                    Optics Facebook</a>
-            </div>
-            <div class="col">
-                <div class="footer-list">
-                    <div>
-                        <a href="{% url 'privacy_policy' %}" class="footer-link">Privacy Policy</a>
-                    </div>
-                </div>
-            </div>
-        </div></span>
+   <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="https://www.facebook.com/profile.php?id=61554309323903" target="_blank"
+          rel="noopener nofollow" class="me-4 text-reset">
+          <i class="fab fa-facebook-f">Facebook</i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Eye-Deal Optics
+            </h6>
+            <p>
+              Online Glasses Retailer, Selling boutique handmade eyewear.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="{% url 'products' %}?category=Glasses" class="text-reset">Glasses</a>
+            </p>
+            <p>
+              <a href="{% url 'products' %}?category=Sunglasses" class="text-reset">Sunglasses</a>
+            </p>
+            <p>
+              <a href="{% url 'contact' %}" class="text-reset">Contact us</a>
+            </p>
+            <p>
+              <a href="{% url 'reviews' %}" class="text-reset">Reviews</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="{% url 'journal' %}" class="text-reset">Journal</a>
+            </p>
+            <p>
+              <a href="{% url 'returns' %}" class="text-reset">Returns Policy</a>
+            </p>
+            <p>
+              <a href="{% url 'privacy_policy' %}" class="text-reset">Privacy Policy</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
         </div>
-      </footer>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2023 Copyright: Davetrev
+      <small>No commercial revenue is generated from the project.</small>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
                   
    
