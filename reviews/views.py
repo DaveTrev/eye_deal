@@ -16,7 +16,8 @@ def reviews(request):
             messages.success(request, 'Thank you for posting a review!')
             return redirect('reviews')
         else:
-            messages.warning(request, 'Failed to post the review. Score is out of 5/5.')
+            messages.warning(request,
+                             'Failed to post the review. Score is out of 5/5.')
     else:
         form = PostReviewForm()
 
