@@ -112,6 +112,15 @@ Make sure you save all your files before testing if it works.
 bug - on mobile contact us success page hidden by navbar, return to fix
 
 
+nologo.png aws issue with thats to Dayana
+It may not make a difference but here is a thought, move these 4 lines above the If AWS statement.
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+I wonder, is it checking for the if statement and then overriding the settings on the next line if that makes sense
+
+
 
 migration
 Hi David, the only data that you really need to be concerned about is your products, Users should not be transferred over as this can lead to problems (I know this from debugging so many of these issues)
@@ -236,4 +245,4 @@ My code:
 bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
 js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
-Cups of coffee = 62
+Cups of coffee = 65
