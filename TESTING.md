@@ -112,7 +112,22 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | Base.css | 
 [screenshot](documentation/testing/css/basecss.png) | Pass: No Errors |
+
 | checkout.css |
 ![screenshot](documentation/testing/css/checkoutcss.png) | Pass: No Errors |
+
 | profile.css | 
 ![screenshot](documentation/testing/css/profilecss.png) | Pass: No Errors |
+
+
+### JavaScript
+
+I have used the recommended [JShint Validator](https://jshint.com) to validate all of my JS files.
+
+| countryfields.js | ![screenshot](documentation/testing/js/countryselect.png) | Pass: No Errors |
+| add_product.html | ![screenshot](documentation/testing/js/add_product_js.png) | Pass: No Errors |
+| edit_product.html| ![screenshot](documentation/testing/js/edit_product_js.png) | Pass: No Errors |
+| products.html | ![screenshot](documentation/testing/js/productsjs.png) | Pass: No Errors |
+| bag.html ![screenshot](documentation/testing/js/bagjs.png) | Pass: No Errors |
+| quantity_input_script.html | ![screenshot](documentation/testing/js/quantity_input_script_js.png) | Pass: No Errors |
+| stripe_elements.js | ![screenshot](documentation/testing/js/stripe_elementsjs.png) | Undefined Stripe variable |
