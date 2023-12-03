@@ -305,7 +305,8 @@ I tested for responsiveness on many different sized viewports from 320px wide up
 ## Lighthouse Audit
 
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
-Performance needs to be improved but I will note I had quite a bit of slow down and internet outages during testing 
+Performance needs to be improved but I will note I had quite a bit of slow down and internet outages during testing .
+All product images and landing page will be compressed at a later date
 
 Home | Desktop
 ![screenshot](documentation/testing/lighthouse/index_desktop.png)
