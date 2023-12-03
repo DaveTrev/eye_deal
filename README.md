@@ -213,6 +213,8 @@ generating returns policy, privacy policy https://app.termsfeed.com/
 
 on mail used for store email
 
+https://bulkimagecrop.com/ cropping images (fantastic site for bulk cropping)
+
 
 webhook handler pep8 linter
 https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments
