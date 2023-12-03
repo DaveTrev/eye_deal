@@ -131,3 +131,158 @@ I have used the recommended [JShint Validator](https://jshint.com) to validate a
 | bag.html ![screenshot](documentation/testing/js/bagjs.png) | Pass: No Errors |
 | quantity_input_script.html | ![screenshot](documentation/testing/js/quantity_input_script_js.png) | Pass: No Errors |
 | stripe_elements.js | ![screenshot](documentation/testing/js/stripe_elementsjs.png) | Undefined Stripe variable |
+
+
+### Python
+
+I have used the recommended [CI Python Linter](https://pep8ci.herokuapp.com) to validate all of my Python files.
+
+# noqa was used where line breaks in strings would have broken Django functionality.
+
+
+| Bag contexts.py |
+
+![screenshot](documentation/testing/python/bag/contexts.png)
+
+Pass: No Errors
+
+| Bag urls.py |
+
+![screenshot](documentation/testing/python/bag/urls.png)
+
+Pass: No Errors
+
+| Bag views.py |
+
+![screenshot](documentation/testing/python/bag/views.png)
+
+Pass: No Errors
+
+| Journal admin.py | 
+
+![screenshot](documentation/testing/python/journal/admin.png) 
+
+Pass: No Errors
+
+| Journal forms.py | 
+
+![screenshot](documentation/testing/python/journal/forms.png) 
+
+Pass: No Errors 
+
+| Journal models.py |
+
+![screenshot](documentation/testing/python/journal/models.png)
+
+Pass: No Errors
+
+| Journal urls.py |
+
+![screenshot](documentation/testing/python/journal/urls.png)
+
+Pass: No Errors
+
+| Journal views.py |
+
+![screenshot](documentation/testing/python/journal/views.png) 
+
+Pass: No Errors
+
+
+| Checkout admin.py |
+
+![screenshot](documentation/testing/python/checkout/admin.png)
+
+Pass: No Errors
+
+| Checkout forms.py |
+
+![screenshot](documentation/testing/python/checkout/forms.png) 
+
+Pass: No Errors
+
+| Checkout models.py |
+
+![screenshot](documentation/testing/python/checkout/models.png)
+
+Pass: No Errors
+
+
+| Checkout signals.py |
+
+![screenshot](documentation/testing/python/checkout/signals.png)
+
+Pass: No Errors 
+
+
+| Checkout urls.py |
+
+![screenshot](documentation/testing/python/checkout/urls.png)
+
+ Pass: No Errors
+
+
+| Checkout views.py |
+
+![screenshot](documentation/testing/python/checkout/views.png)
+
+Pass: No Errors
+
+| Checkout webhook_handler.py |
+
+![screenshot](documentation/testing/python/checkout/webhook_handler.png)
+
+ Pass: No Errors
+
+| Checkout webhooks.py |
+
+![screenshot](documentation/testing/python/checkout/webhooks.png) 
+
+Pass: No Errors
+
+
+
+| Contact admin.py |  ![screenshot](documentation/testing/python/contact/admin.png) | Pass: No Errors |
+| Contact forms.py |  ![screenshot](documentation/testing/python/contact/forms.png) | Pass: No Errors |
+| Contact models.py | ![screenshot](documentation/testing/python/contact/models.png) | Pass: No Errors |
+| Contact urls.py |  ![screenshot](documentation/testing/python/contact/urls.png) | Pass: No Errors |
+| Contact views.py |  ![screenshot](documentation/testing/python/contact/views.png) | Pass: No Errors |
+
+
+
+
+
+| Reveiws admin.py | ![screenshot](documentation/testing/python/reviews/admin.png) | Pass: No Errors |
+| Reviews Codes forms.py |  ![screenshot](documentation/testing/python/reviews/forms.png)  | Pass: No Errors |
+| Reviews Codes models.py |  ![screenshot](documentation/testing/python/reviews/models.png)  | Pass: No Errors |
+| Reviews Codes urls.py |  ![screenshot](documentation/testing/python/reviews/urls.png)  | Pass: No Errors |
+| Reviews Codes Views.py |  ![screenshot](documentation/testing/python/reviews/views.png)  | Pass: No Errors |
+
+
+
+| Home urls.py | ![screenshot](documentation/testing/python/home/urls.png)  | Pass: No Errors |
+| Home views.py | ![screenshot](documentation/testing/python/home/views.png) | Pass: No Errors |
+
+
+
+
+
+| Products admin.py | ![screenshot](documentation/testing/python/products/admin.png) | Pass: No Errors |
+| Products forms.py | ![screenshot](documentation/testing/python/products/forms.png) | Pass: No Errors |
+| Products models.py | ![screenshot](documentation/testing/python/products/models.png) | Pass: No Errors |
+| Products urls.py |  ![screenshot](documentation/testing/python/products/urls.png) | Pass: No Errors |
+| Products views.py |  ![screenshot](documentation/testing/python/products/views.png) | Pass: No Errors |
+| Products widgets.py |  ![screenshot](documentation/testing/python/products/widgets.png) | Pass: No Errors |
+
+
+
+| Profiles forms.py | ![screenshot](documentation/testing/python/profiles/forms.png) | Pass: No Errors |
+| Profiles models.py | ![screenshot](documentation/testing/python/profiles/models.png) | Pass: No Errors |
+| Profiles urls.py | ![screenshot](documentation/testing/python/profiles/urls.png) | Pass: No Errors |
+| Profiles views.py | ![screenshot](documentation/testing/python/profiles/views.png) | Pass: No Errors |
+
+
+
+| Project Level settings.py | ![screenshot](documentation/testing/python/project/settings.png) | Pass: No Errors |
+| Project Level urls.py | ![screenshot](documentation/testing/python/project/urls.png) | Pass: No Errors |
+| Project Level views.py | ![screenshot](documentation/testing/python/project/views.png) | Pass: No Errors |
