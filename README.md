@@ -249,4 +249,4 @@ My code:
 bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
 js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
-Cups of coffee = 65
+Cups of coffee = 66
