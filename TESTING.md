@@ -341,7 +341,189 @@ Blog | Mobile
 Reviews | Desktop 
 ![screenshot](documentation/testing/lighthouse/reviews_desk.png)
 
-
 Reviews | Mobile
 ![screenshot](documentation/testing/lighthouse/reviews_mobile.png)
+
+
+## User Story Testing
+
+Here is the given information converted to markdown:
+
+## User Stories
+
+- **Improve mobile load speeds**
+  - Status: Wont Fix
+  - Link: [Issue #35](https://github.com/DaveTrev/eye_deal/issues/35)
+
+- **Social media login**
+  - Status: Future Updates
+  - Link: [Issue #7](https://github.com/DaveTrev/eye_deal/issues/7)
+
+- **Improve Search Bar functionality**
+  - Status: Future Updates
+  - Link: [Issue #33](https://github.com/DaveTrev/eye_deal/issues/33)
+
+- **Login or Logout**
+  - Status: Done
+  - Link: [Issue #3](https://github.com/DaveTrev/eye_deal/issues/3)
+
+- **Newsletter signup form**
+  - Status: Done
+  - Link: [Issue #12](https://github.com/DaveTrev/eye_deal/issues/12)
+
+- **Recover password**
+  - Status: Done
+  - Link: [Issue #4](https://github.com/DaveTrev/eye_deal/issues/4)
+
+- **Create Journal app**
+  - Status: Done
+  - Link: [Issue #36](https://github.com/DaveTrev/eye_deal/issues/36)
+
+- **REL attributes**
+  - Status: Done
+  - Link: [Issue #10](https://github.com/DaveTrev/eye_deal/issues/10)
+
+- **The requirements for an e-commerce business model**
+  - Status: Done
+  - Link: [Issue #13](https://github.com/DaveTrev/eye_deal/issues/13)
+
+- **Create a 404 / 500 page**
+  - Status: Done
+  - Link: [Issue #14](https://github.com/DaveTrev/eye_deal/issues/14)
+
+- **Reviews**
+  - Status: Done
+  - Link: [Issue #34](https://github.com/DaveTrev/eye_deal/issues/34)
+
+- **Contact us page**
+  - Status: Done
+  - Link: [Issue #37](https://github.com/DaveTrev/eye_deal/issues/37)
+
+- **Create a Facebook business page**
+  - Status: Done
+  - Link: [Issue #11](https://github.com/DaveTrev/eye_deal/issues/11)
+
+- **Deploy via AWS**
+  - Status: Done
+  - Link: [Issue #32](https://github.com/DaveTrev/eye_deal/issues/32)
+
+- **Sitemap.xml file to be created**
+  - Status: Done
+  - Link: [Issue #8](https://github.com/DaveTrev/eye_deal/issues/8)
+
+- **Create a Robots.txt file**
+  - Status: Done
+  - Link: [Issue #1](https://github.com/DaveTrev/eye_deal/issues/1)
+
+- **Register for an account**
+  - Status: Done
+  - Link: [Issue #2](https://github.com/DaveTrev/eye_deal/issues/2)
+
+- **Receive an email confirmation after registering**
+  - Status: Done
+  - Link: [Issue #5](https://github.com/DaveTrev/eye_deal/issues/5)
+
+- **Have a user profile**
+  - Status: Done
+  - Link: [Issue #6](https://github.com/DaveTrev/eye_deal/issues/6)
+
+- **View list of products**
+  - Status: Done
+  - Link: [Issue #15](https://github.com/DaveTrev/eye_deal/issues/15)
+
+- **View individual product details**
+  - Status: Done
+  - Link: [Issue #16](https://github.com/DaveTrev/eye_deal/issues/16)
+
+- **View the total of my purchases at any time**
+  - Status: Done
+  - Link: [Issue #17](https://github.com/DaveTrev/eye_deal/issues/17)
+
+- **Have a personal user profile**
+  - Status: Done
+  - Link: [Issue #19](https://github.com/DaveTrev/eye_deal/issues/19)
+
+- **Select quantity of product**
+  - Status: Done
+  - Link: [Issue #23](https://github.com/DaveTrev/eye_deal/issues/23)
+
+- **Adjust bag items**
+  - Status: Done
+  - Link: [Issue #25](https://github.com/DaveTrev/eye_deal/issues/25)
+
+- **Enter payment details**
+  - Status: Done
+  - Link: [Issue #26](https://github.com/DaveTrev/eye_deal/issues/26)
+
+- **Search products**
+  - Status: Done
+  - Link: [Issue #22](https://github.com/DaveTrev/eye_deal/issues/22)
+
+- **Edit or update a product**
+  - Status: Done
+  - Link: [Issue #30](https://github.com/DaveTrev/eye_deal/issues/30)
+
+- **Add a product**
+  - Status: Done
+  - Link: [Issue #29](https://github.com/DaveTrev/eye_deal/issues/29)
+
+- **View order confirmation after checkout**
+  - Status: Done
+  - Link: [Issue #28](https://github.com/DaveTrev/eye_deal/issues/28)
+
+- **Personal and payment info**
+  - Status: Done
+  - Link: [Issue #27](https://github.com/DaveTrev/eye_deal/issues/27)
+
+- **View items in my bag**
+  - Status: Done
+  - Link: [Issue #24](https://github.com/DaveTrev/eye_deal/issues/24)
+
+- **Sorting products**
+  - Status: Done
+  - Link: [Issue #20](https://github.com/DaveTrev/eye_deal/issues/20)
+
+- **Sort a particular type of product**
+  - Status: Done
+  - Link: [Issue #21](https://github.com/DaveTrev/eye_deal/issues/21)
+
+- **Descriptive Meta tags In HTML**
+  - Status: Done
+  - Link: [Issue #9](https://github.com/DaveTrev/eye_deal/issues/9)
+
+- **Delete a Product**
+  - Status: Done
+  - Link: [Issue #31](https://github.com/DaveTrev/eye_deal/issues/31)
+
+
+## Bugs
+
+- Search bar returning products, not exactly correct?
+removing male / female dropdown toggle as filtering not working on gender? return to fix, below code removed from header "for him" "for her"
+
+- "I noticed you have a field for gender but also there is category class". (with thanks to Dayana for this one)
+If gender is part of your product model then you will need to refine your products by gender instead of category. 
+You could also create a separate class gender like a subcategory connected to your product and filter that way too
+
+- update number not reflecting in shopping bag
+Roman From Ci Tutor Team helped me spot this one!
+value="{{ item.quantity }}" tou your increment/decrement form in bag.html
+
+- allauth login page not loading
+After much searching and with help from the CI tutor support, clearing the cookies / cache helped to display the login page
+
+- nologo.png aws issue with thats to Dayana
+It may not make a difference but here is a thought, move these 4 lines above the If AWS statement.
+STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+I wonder, is it checking for the if statement and then overriding the settings on the next line if that makes sense
+
+
+- html validation, summernote causing errors in add and edit journal
+Multiple Errors all from summernote widget for blog content field
+
+- html validation, blog detail page, font colour causing issues with w3 validation. return to fix, not enough time before submisson.
+
 
