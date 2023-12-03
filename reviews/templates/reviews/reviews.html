@@ -42,7 +42,7 @@
    <!-- Leave a Review -->
    <div class="col-12 col-lg-6">
     <h3>Leave a Review</h3>
-    <form method="POST" action="" enctype="multipart/form-data">
+    <form method="POST" enctype="multipart/form-data">
       {% csrf_token %}
       {{ form | crispy }}
       <div>

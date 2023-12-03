@@ -170,7 +170,7 @@
     <footer class="text-center text-lg-start bg-body-tertiary text-muted col-12">
         <div class="container-fluid px-0">
             <!-- Section: Social media heading to add more links in the future -->
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
                 <!-- Left -->
                 <div class="me-5 d-none d-lg-block">
                     <span>Get connected with us on <span class="sr-only">Facebook:</span></span>
@@ -184,13 +184,28 @@
                         aria-label="Connect with us on our official Facebook page">
                         <i class="fab fa-facebook-f"></i>
                     </a>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener nofollow" class="me-4 text-reset">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener nofollow" class="me-4 text-reset">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noopener nofollow" class="me-4 text-reset">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                      <a href="https://github.com/" class="me-4 text-reset">
+                        <i class="fab fa-github"></i>
+                      </a>
+                  </div>
+                <div>
+
                 </div>
                 <!-- Right -->
-            </section>
+            </div>
             <!-- Section: Social media -->
 
             <!-- Section: Links  -->
-            <section class="">
+            <div class="">
                 <div class="container text-center text-md-start mt-5">
                     <!-- Grid row -->
                     <div class="row mt-3">
@@ -252,7 +267,7 @@
                     </div>
                     <!-- Grid row -->
                 </div>
-            </section>
+            </div>
             <!-- Section: Links  -->
 
             <!-- Copyright -->
@@ -267,14 +282,14 @@
     {% endblock %}
 
     {% block postloadjs %}
-    <script type="text/javascript">
+    <script>
         $('.toast').toast('show');
     </script>
 
     <!--MailChimp Script-->
-    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+    <script src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
 
-    <script type="text/javascript">
+    <script >
         (function ($) {
             window.fnames = new Array();
             window.ftypes = new Array();

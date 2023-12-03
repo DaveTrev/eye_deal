@@ -41,8 +41,9 @@
                         <a href="{% url 'edit_product' product.id %}">Edit</a> | 
                         <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                     </small>
-                {% endif %}
                 </p>
+                {% endif %}
+                
                 <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
                 <p class="lead mb-0 text-left font-weight-bold">{{ product.gender }}</p>
                 <p class="lead mb-0 text-left font-weight-bold">{{ product.size }}</p>
