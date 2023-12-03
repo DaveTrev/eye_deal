@@ -121,6 +121,10 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 I wonder, is it checking for the if statement and then overriding the settings on the next line if that makes sense
 
 
+bug html validation, summernote causing errors in add and edit journaleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+	Multiple Errors all from summernote widget for blog content field
+
+
 
 migration
 Hi David, the only data that you really need to be concerned about is your products, Users should not be transferred over as this can lead to problems (I know this from debugging so many of these issues)
