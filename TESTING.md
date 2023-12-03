@@ -286,3 +286,61 @@ Pass: No Errors
 | Project Level settings.py | ![screenshot](documentation/testing/python/project/settings.png) | Pass: No Errors |
 | Project Level urls.py | ![screenshot](documentation/testing/python/project/urls.png) | Pass: No Errors |
 | Project Level views.py | ![screenshot](documentation/testing/python/project/views.png) | Pass: No Errors |
+
+
+## Browser Compatibility
+
+I've tested my deployed project on Chrome and firefox browsers to check for compatibility issues.
+
+| Browser | Notes |
+| --- | --- |
+| Chrome | Works as expected |
+| Firefox | Works as expected |
+
+
+### Responsiveness
+
+I tested for responsiveness on many different sized viewports from 320px wide up to Ultrawide resolutions, and using different hardware (Monitors, Laptops, Phones).
+
+## Lighthouse Audit
+
+I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
+Performance needs to be improved but I will note I had quite a bit of slow down and internet outages during testing 
+
+Home | Desktop
+![screenshot](documentation/testing/lighthouse/index_desktop.png)
+
+Home | Mobile
+![screenshot](documentation/testing/lighthouse/index_mobile.png)
+
+All Products | Desktop
+![screenshot](documentation/testing/lighthouse/products_desktop.png)
+
+All Products | Mobile
+![screenshot](documentation/testing/lighthouse/products_mobile.png)
+
+Product Detail | Desktop
+![screenshot](documentation/testing/lighthouse/productdetail.png)
+
+Product Detail | Mobile
+![screenshot](documentation/testing/lighthouse/productdetailmob.png)
+
+Contact | Desktop
+![screenshot](documentation/testing/lighthouse/contact_us_desk.png)
+
+Contact | Mobile  
+![screenshot](documentation/testing/lighthouse/contact_us_mobile.png)
+
+Blog | Desktop 
+![screenshot](documentation/testing/lighthouse/journal_desktop.png)
+
+Blog | Mobile
+![screenshot](documentation/testing/lighthouse/journal_mobile.png)
+
+Reviews | Desktop 
+![screenshot](documentation/testing/lighthouse/reviews_desk.png)
+
+
+Reviews | Mobile
+![screenshot](documentation/testing/lighthouse/reviews_mobile.png)
+
