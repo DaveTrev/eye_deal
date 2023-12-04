@@ -376,7 +376,6 @@ CVC: 242 <br>
 Postcode: 42424<br>
 ![](documentation/readme/checkout.png)
 
-
 - Confirmation<br>
 Once the customer has successfully checked out, they will be directed to the order confirmation page. This will show their order details.<br>
 ![](documentation/readme/thank_confirmation.png)
@@ -385,17 +384,37 @@ Once the customer has successfully checked out, they will be directed to the ord
 A confirmation email is sent to the customer once an order has been placed. This has been tested with [Temp Mail](https://temp-mail.org/en/) as seen in the image below. The email will thank the customer and provide their order details. This is an integral part of e-commerce websites as it shows professionalism and builds trust with the customer letting the customer know their order has been placed successfully.<br>
 ![](documentation/readme/email_confirmation.png)
 
-
 - Leave a Review<br>
 Site users have the ability to leave a review to express their satisfaction/dissatisfaction with the company. A form is displayed where the user is asked to provide a rating and a comment. The recent reviews are also displayed on the 'Reviews' page. These can be managed by the site owner in the admin. A max height is provided so if the recent reviews exceed that, then a scroll bar is provided to view older reviews.
 ![](documentation/readme/reviews.png)
 
+- Update Details / profile<br> 
+Users have the ability to update their delivery information on the 'Profile' page. This saves their changes and pre-populates the checkout form when placing an order.The 'Profile' page displays the user's order history. It is important for users to keep track of their previous orders in one place.<br>
+![](documentation/readme/myprofile_order_history.png)
 
-
+- Contact Us<br>
+The 'Contact Us' page shows a form with contact reason, name, email, message. The contact methods stack on top of each other on smaller screens.<br>
+![](documentation/readme/contact_us.png)
 
 - Mailchimp Newsletter<br>
 The purpose is to get users to sign up to create a mailing list for email marketing.<br>
 ![](documentation/readme/mailchimp.png)
+
+- Privacy Policy<br>
+It is important to include this on the website as it tells users how and why we are collecting their personal information. From a SEO and Marketing stance, search engine algorithms will find the site trustworthy and prioritise it over websites without one.<br>
+![](documentation/readme/privacy.png)
+
+- Returns Policy<br>
+<br>
+![](documentation/readme/returns_refunds.png)
+
+- 404<br>
+A 404 error page will display when a user tries to access a page that doesn't exist. A 'Return to Store' button is provided for users.<br>
+![](documentation/readme/404.png)
+
+- Footer<br>
+The footer is consistent on all pages of the website. It includes a copyright marker and a disclaimer. Either side, displays links to the FAQ's, Contact Us, Privacy Policy and Returns Policy.<br>
+![](documentation/readme/footer.png)
 
 
 ### **Future Features**
