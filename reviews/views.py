@@ -14,7 +14,7 @@ def reviews(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Thank you for posting a review!')
-            return redirect('reviews')
+            return redirect(reverse('reviews'))
         else:
             messages.warning(request,
                              'Failed to post the review. Score is out of 5/5.')
