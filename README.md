@@ -276,8 +276,40 @@ The Spectacle frames at the store are vibrant and colourful, therefore the main 
 The font for the website was chosen using [Google Fonts](https://fonts.google.com/). I decided to use the font 'Merriweather '. "Meriweather is quite popular and one of the widely used brand fonts for websites. Especially for the e-commerce ones. Indeed, it is pleasant to look at because of its condensed letterforms. Also, it is ideal for font pairings. If you wish to have a high-end brand image, then Merriweather is the best fonts style for it!"
 Taken from [Code Theorem](https://codetheorem.co/blogs/best-fonts-for-ecommerce-website)
 
+### **Features**
 
+- Desktop Header<br>
+The header is consistent on all pages. For larger screen sizes, the header will display a all products link, logo, accounts, glasses, sunnies, journal, contact, reviews and basket.<br>
+![](documentation/readme/desk_header.png)
 
+- Mobile Header<br>
+The header is consistent on all pages. For medium and smaller screen sizes, the leagues condense into a burger menu. The search icon, accounts, and basket are also displayed in the mobile header.<br>
+![](documentation/readme/mobileheader.png)
+
+- Logo<br>
+The logo has an imprtant role in the navigation of the website. Users can always return to the home page by clicking on the logo in the header.<br>
+![](documentation/readme/logo.png)
+
+- Search Bar<br>
+Customers use the search bar to look for particular products. A list of search results will appear for the customer to peruse if the product's name or description contains the term they are searching for.<br>
+![](documentation/readme/search.png)
+
+- Dropdowns<br>
+The dropdown menus were created to store additional pages without cluttering the main menu for a more finished look and better site structure. The two dropdown’s are ‘All Products’ and ‘My Account’.<br>
+![](documentation/readme/allprod.png)
+![](documentation/readme/myaccount.png)
+
+- Basket Icon
+This allows site users to always view the basket total.<br>
+![](documentation/readme/bagicon.png)
+
+- Alert Messages<br>
+Alert messages are very important in communicating back to the user once an action is taken.<br>
+![](documentation/readme/successalert.png)<br>
+
+- Mailchimp Newsletter<br>
+The purpose is to get users to sign up to create a mailing list for email marketing.<br>
+![](documentation/readme/mailchimp.png)
 
 
 ### **Future Features**
