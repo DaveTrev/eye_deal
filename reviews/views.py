@@ -6,8 +6,6 @@ from .models import Review
 from .forms import PostReviewForm
 
 
-
-
 def reviews(request):
     """ A view to return the reviews page """
 
