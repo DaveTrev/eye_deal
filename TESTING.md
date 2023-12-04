@@ -538,8 +538,6 @@ Here is the given information converted to markdown:
 
 - footer sitting too high on some pages
 
-- footer social links not sitting to the right and left on desktop (works with just FB link as originally designed / works on mobile)
-
 ### Fixed Issues
 - Search bar returning products, not exactly correct?
 removing male / female dropdown toggle as filtering not working on gender? return to fix, below code removed from header "for him" "for her"
@@ -599,6 +597,7 @@ Now that your environment variables have been set in your env.py file, and the f
 SECRET_KEY = os.environ.get('SECRET_KEY')
 Make sure you save all your files before testing if it works.
 
+- footer social links not sitting to the right and left on desktop (works with just FB link as originally designed / works on mobile)
 
 - Migration ( Discussion regarding exporting products to s3 without a fixtures file with the tutor team )
 Hi David, the only data that you really need to be concerned about is your products, Users should not be transferred over as this can lead to problems (I know this from debugging so many of these issues)
