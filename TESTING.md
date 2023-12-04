@@ -536,8 +536,6 @@ Here is the given information converted to markdown:
 
 ### Unfixed Bugs
 
-- just before submisson i have discovered an 500 internal error when deleting a review post
-
 - footer sitting too high on some pages
 
 ### Fixed Issues
