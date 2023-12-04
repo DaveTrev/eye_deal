@@ -1,3 +1,114 @@
+# Eye-deal Optics
+
+Eye deal optics is a optical retail e-commerce site. It sells limited ranges of bespoke and handmade spectacle frames and sunglasses. 
+
+This is for educational purposes only, please don’t enter your card details.
+If you want to test the payment system, use these test card details: <br>
+Card Number: 4242 4242 4242 4242 <br>
+Date: 0424 <br>
+CVC: 242 <br>
+Postcode: 42424
+
+You can reach the live site [here](https://eye-deal-e27624539e49.herokuapp.com/)
+
+# Business Model 
+Eye Deal optics is a B2C business. The business sells optical and sun frames from small boutique makers from around the world. We advertise on Facebook, users can share the page to spread the word on the latest trends and pieces . The online store will sell and deliver goods to purchasing customers and all marketing will be done digitally.
+
+
+# User-Experience-Design
+
+## Site Goals
+
+The site is aimed at anyone that wants to buy a bespoke frame and wants to stand out from crowd. Without signing in the user can browse the online store.
+ They can also look at the site blog to see the musings from the business owner.
+They can log in to see a log of the items they have bought. They can also save their details for future purchases.
+
+## Agile Planning
+
+This project was developed using agile methodologies, delivering small features over  sprints spaced out over  weeks.  Each issue was labelled must have, should have and could have.  The must-have features were completed first, then the should have's, then the could have's.  It was done this way to ensure a complete website is made with the nice-to-have features added if there is capacity.
+
+
+# **Marketing Strategy**
+The marketing strategies chosen for Eye-Deal will be SEO, Social Media Marketing and Email Marketing. Pages such as robots.txt, sitemap and privacy policy help SEO ranking.
+These will all be covered in more detail below.
+
+<br>
+<hr>
+<br>
+
+### **Search Engine Optimization (SEO)**
+Keywords were identified through [Wordtracker](https://www.wordtracker.com/search) and [Google Trends](https://trends.google.com/home). These tools helped me identify what keywords users are searching for. To test the relevance of the keywords, each keyword was entered into [Google](https://www.google.com/) to find out the number of results and search suggestions, the most relevant were added to the keyword list. Once chosen the most suitable, these keywords were included in meta tags, titles, descriptions, headings and the content throughout the website to improve the SEO ranking. 
+
+***** add meta image here
+
+<br>
+<hr>
+<br>
+
+### **Robots.txt**
+A robots.txt file was created. This improves the SEO ranking of the website by telling the search engine where not to go and which pages they can't crawl. 
+
+<br>
+<hr>
+<br>
+
+### **Sitemap**
+A sitemap file with a list of important URLs is important for search engines to crawl the website and easily understand the site structure when navigating it. The sitemap was created using [XML-sitemaps.com](https://www.xml-sitemaps.com/).
+
+
+<br>
+<hr>
+<br>
+
+### **Social Media Marketing**<br>
+Social media marketing will be integral to the success of Eye-deal. The most popular platform for social media marketing is Facebook: [Eye-Deal Optics Facebook](https://www.facebook.com/people/Eye-Deal-Optics/61554309323903/). This platform provides a link to the website, contact details and opening times. The social media accounts will be used to create interactive posts promoting new stock and encouraging sign-ups, driving traffic to the website and encouraging two-way communication.
+
+
+<br>
+<hr>
+<br>
+
+### **Email Marketing**<br>
+Creating a mailing list for email marketing by using the 'Sign Up to Newsletter' option. Every month, the store will add new things to its inventory. First access to these products will be granted to users who have subscribed to the newsletter. Email marketing will be utilised to drive visitors to the website by means of weekly newsletters with a call to action sent out via [Mail Chimp](https://mailchimp.com). 
+
+<br>
+<hr>
+<br>
+
+### **Privacy Policy**
+The [Privacy Policy Generator](https://www.termly.io/) was employed to write Eye-Deals privacy policy. This should be prominently displayed on the website as it explains to visitors how and why we gather their personal data. Search engine algorithms will consider the website reliable and give it priority over websites without one, as a matter of SEO and marketing strategy.
+
+<br>
+<hr>
+<br>
+
+## **Technologies Used**<br>
+- [HTML5](https://www.w3schools.com/html/) was used to create the structure of the website.
+- [CSS3](https://www.w3schools.com/css/) was used to style the website.
+- [JavaScript](https://www.javascript.com/) was used to add interactivity to the website.
+- [Python](https://www.python.org/) was used to build the backend of the website.
+- [Django](https://www.djangoproject.com/) was used to build the website.
+- [Django Allauth](https://django-allauth.readthedocs.io/en/latest/) was used for all account management.
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) was used to render the website forms.
+- [PostgresSQL](https://www.postgresql.org/) was used as the database during development.
+- [Gunicorn](https://gunicorn.org/) was used to run the application.
+- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) was used to style the website content.
+- [Git](https://git-scm.com/) was used for version control to commit and push to GitHub.
+- [GitPod](https://www.gitpod.io/) was used as the development environment. 
+- [GitHub](https://github.com/) was used to store the code.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to fix errors and test responsiveness.
+- [Heroku](https://heroku.com/) was used to deploy the website.
+- [Elephant SQL](https://www.elephantsql.com/) was used to host the database.
+- [Font Awesome](https://fontawesome.com/) was used for the website icons.
+- [Google Fonts](https://fonts.google.com/) was used for the website font.
+- [Stripe](https://stripe.com/gb) was used to process the card payment functionality. 
+- [Amazon AWS](https://aws.amazon.com/) was used to store the static and media files.
+- [Pexels](https://www.pexels.com/) was used for the image on the 'home' page.
+- [Grammarly](https://www.grammarly.com/) was used to check the grammar of the website content.
+- [Termly](https://termly.io/products/refund-return-policy-generator/) was used to create the returns policy.
+
+
+
 Intro
 Creating a full stack ecomm site for a spectacle frame retailer
 
@@ -255,4 +366,293 @@ My code:
 bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
 js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
-Cups of coffee = 71
+# Deployment
+
+## **Code Institute Template**
+1. Click the 'Use This Template' button.
+2. Name your repository and write a description (optional).
+3. Click the 'Create Repository from Template' to create the repository.
+4. Click the 'GitPod' button to create a new workspace.
+5. When working on the project, ensure to open the workspace from GitPod, this will open your previous workspace ratehr than creating a new one.
+6. Use the following commands to commit your work:
+- 'git add' adds all the modified files to a staging area.
+- 'git commit -m "Write commit message"' commits the changes to the local repository.
+- 'git push' pushes all your committed changes to the GitHub repository.
+
+<br>
+<hr>
+<br>
+
+### **Django Setup**
+1. In the terminal enter, pip3 install 'django<4'.
+2. Then enter, django-admin startproject *your project name*
+3. You will see the django project folder, including settings.py and urls.py.
+4. Back to the terminal, enter touch .gitignore.
+5. In the .gitignore file enter, *.sqlite3 and *.pyc and __pycache__
+6. Run the project by entering python3 manage.py runserver to check it is running well. 
+7. Your page should show a rocket with 'The install worked successfully! Congratulations!' below it.
+8. Back in the terminal CTRL + C to quit the server.
+9. To migrate enter, python3 manage.py migrate.
+10. To create a superuser enter, python3 manage.py createsuperuser.
+11. Provide username, email and password.
+12. Then, git add . in the terminal
+13. Then, git commit -m *"your commit message"*
+14. Finally, git push to push the changes. 
+
+
+<br>
+<hr>
+<br>
+
+### **ElephantSQL Setup**
+1. Open ElephantSQL.
+2. Register or Login.
+3. Click 'Create New Instance'. Create a name and select a region.
+4. Confirm new instance by clicking 'Create Instance'.
+5. Click the instance you created.
+6. Copy the URL to the clipboard.
+7. Paste it into your DATABASE_URL = "enter url here" in .env file.
+
+<br>
+<hr>
+<br>
+
+### **Heroku Setup**
+1. Open Heroku.
+2. Register or Login.
+3. Click 'Create New App'.
+4. Enter app name and select the region.
+5. Click 'Create App'.
+6. Under the 'Deploy' tab, click 'Connect to GitHub'.
+7. Enter your GitHub credentials.
+8. Search for your repository and click 'Connect'.
+9. In the 'Settings' tab, scroll to 'Reveal Config Vars' and copy the ElephantSQL URL from the .env file.
+10. In config vars, set PORT to 8000 and add the SECRET_KEY from the .env file.
+
+<br>
+<hr>
+<br>
+
+### **Stripe Setup** 
+1. Register for a [Stripe](https://stripe.com/gb) account.
+2. Go to 'Developers' on 'Dashboard'.
+3. Go to 'API Keys' to view public and secret key.
+4. In .env file add STRIPE_PUCLIC_KEY AND STRIPE_SECERET_KEY.
+5. Copy in public and secret keys from Stripe.
+6. Head to Heroku and open the app.
+7. Click on 'settings' and 'Reveal Config Vars'
+8. Add the STRIPE_PUCLIC_KEY AND STRIPE_SECERET_KEY with their keys from Stripe.
+
+<br>
+<hr>
+<br>
+
+### **Amazon Web Services**
+1. Create a [Amazon AWS](https://aws.amazon.com/) account.
+2. Open S3 application and create a bucket.
+3. Select an AWS Region.
+4. Uncheck the 'Block All Public Access' setting and acknowledge that the bucket will be public.
+5. In 'Properties', go to the 'Static Website Hosting' and click 'Edit'.
+6. Turn on 'Static Website Hosting' and set index.html and errors.html values.
+7. In 'Permissions', click 'Edit' on the CORS configuration.
+8. Edit 'Bucket Policy' and generate and set configuration 'Bucket Policy'.
+9. Go to 'Access Control List' and set list object permission for everyone.
+10. Open IAM application and set up a user group.
+11. Click on 'Policies' and 'Create Policy'.
+12. Click on the JSON tab and import a pre-built Amazon policy called AmazonS3FullAccess.
+13. Set following settings in JSON tab.
+14. Click 'Review Policy', and provide name and description then 'Create Policy'.
+15. Navigate to 'Groups' then 'Permissions' and 'Add Permission' then 'Attach Policy'.
+16. Click 'Add User' and create one.
+17. Add the user to the group and download the CSV with the user's access credentials.
+18. Add the AWS code in settings.py with an environment variable called USE_AWS.
+
+<br>
+<hr>
+<br>
+
+### **Google Mail**
+1. Create a [Gmail](https://mail.google.com) account.
+2. Login and go to settings and click Other Google Account Settings.
+3. Turn on two-step verification following the steps to enable it.
+4. Once verified click on app passwords. Select 'Other' and provide a name. 'Django' for example.
+5. Click 'Create' and a 16-digit password will generate. Copy it to your clipboard.
+6. In the .env file, add EMAIL_HOST_PASS with the 16-digit password.
+7. In the .env file, add EMAIL_HOST_USER with the email address from your gmail account. 
+8. Confirm the following values in settings.py and add the variables to your config vars in Heroku to send real emails.
+
+<br>
+<hr>
+<br>
+
+## **Development**
+### **Fork**
+1. Log into GitHub and click on repository to download
+2. Click the 'Fork' button in the top right-hand corner
+3. Select a different owner if necessary
+4. Click on 'Create Fork'
+5. The repository is now in your account and can be changed (Changes made to a forked repository will not affect the original).
+
+<br>
+<hr>
+<br>
+
+### **Clone** 
+1. Navigate to the main repository page.
+2. Click on the 'Code' dropdown menu above the list of files.
+3. Choose a method to copy the URL for the repository.
+4. In the work environment, open Git Bash and change the current directory to target location for cloned repository.
+5. Type 'git clone' followed by the copied URL and press 'Enter'.
+
+<br>
+<hr>
+<br>
+
+### **Download ZIP**
+1. Log into GitHub and click on the repository to download.
+2. Select 'Code' and click 'Download Zip'.
+3. Once the download is finished, extract ZIP file and use it in the local environment.
+
+<br>
+<hr>
+<br>
+
+## Credits
+
+Below are links I have used, I am conscious to include all links, to avoid any unwarranted plagerism. This project was the toughest yet and I know ive pulled from alot of resources:
+
+- The Boutique Ado walkthrough was used as a boiler plate for this project.
+
+- The "think therefore I am" walkthorugh was also used to help create the journal section of the site.
+
+- all images are taken from either pexels or unsplash
+
+- orgreen optics 
+https://orgreenoptics.presscloud.com/digitalshowroom/#/gallery
+Any product is used for educational purposes only
+
+- adding a blog
+https://claritydev.net/blog/adding-a-blog-to-your-django-website
+
+- adding a contact us form 
+https://www.twilio.com/blog/build-contact-form-python-django-twilio-sendgrid
+
+- building an image gallery with django
+https://reintech.io/blog/building-image-gallery-in-django
+
+- 404 page image
+https://unsplash.com/photos/silver-framed-eyeglasses-on-wooden-surface-KZa_RBuBLu4 
+https://www.pexels.com/photo/red-sunglasses-on-pink-surface-1532244/
+
+- Journal / blog
+https://github.com/adamgilroy22/retro-reboot/tree/main
+CI I think therefore i blog
+
+- contact us form:
+https://medium.com/@k.lancemeister/django-crispy-forms-cb6f97200299
+https://www.youtube.com/watch?v=w4ilq6Zk-08
+
+- reviews
+https://michaelstromer.nyc/books/intro-to-django/django-reviews
+
+- wishlist
+https://data-flair.training/blogs/python-django-wishlist-app/
+
+- SEO keywords
+https://www.wordtracker.com/search
+https://www.shapedivider.app/
+
+- adding wishlist to profile app
+https://stackoverflow.com/questions/51230409/how-to-assign-userprofile-with-wishlist-without-using-a-default-user
+
+- Generating sku codes
+https://www.3dsellers.com/free-tools/sku-generator
+
+- jquery
+https://releases.jquery.com/
+
+- django key generator
+https://miniwebtool.com/django-secret-key-generator/
+
+- xmlsitemap
+https://www.xml-sitemaps.com/
+
+- Favicon.io 
+https://favicon.io/favicon-generator/e
+
+- bootstrap footer 
+https://mdbootstrap.com/docs/standard/navigation/footer/
+
+- generating returns policy, privacy policy
+https://app.termsfeed.com/
+
+
+- cropping images (fantastic site for bulk cropping)
+https://bulkimagecrop.com/ 
+
+- webhook handler pep8 linter
+https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments 
+
+- added all auth instead of from django.contrib.auth.views import LoginView
+https://django-allauth.readthedocs.io/en/latest/
+
+- Create about page with model / possible seperate app
+https://www.dennisivy.com/django-class-based-views
+
+- Creating user registration, login and logout with django
+https://ordinarycoders.com/blog/article/django-user-register-login-logout
+
+- CRUD
+https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/?ref=lbp
+
+- Working with forms 
+https://docs.djangoproject.com/en/3.1/topics/forms/#working-with-form-templates
+
+- Mixin messages
+https://www.youtube.com/watch?v=pOXqvzVCeSM
+
+- Mixin messages with class based views
+https://docs.djangoproject.com/en/3.2/ref/class-based-views/mixins-single-object/#django.views.generic.detail.SingleObjectMixin.get_context_data
+
+- getbootstrap
+https://getbootstrap.com/
+
+- Bootstrap cheat sheet
+https://getbootstrap.com/docs/5.0/examples/cheatsheet/
+
+- Bootstrap grid system
+https://www.youtube.com/watch?v=Wqu-d_b3K-0
+
+- Django for beginners (A fantastic book)
+https://djangoforbeginners.com/
+
+- 404 page (how to)
+https://www.geeksforgeeks.org/django-creating-a-404-error-page/
+
+- Form validation
+https://www.dark-hamster.com/application/how-to-display-form-error-in-django/
+
+- Crispy forms how to 
+https://www.youtube.com/watch?v=MZwKoi0wu2Q&t=369s
+
+- Styling forms with bootstrap 
+https://www.youtube.com/watch?v=6-XXvUENY_8
+
+- add all auth instead of from django.contrib.auth.views import LoginView
+https://django-allauth.readthedocs.io/en/latest/
+
+
+
+## Acknowledgements
+
+I would like to thank:
+
+- As always, many many thanks to my better half Jenny and my kids Rose and Ollie for their ongoing patience while I worked on this project and disappeared for weeks. Jenny has endured a very absent partner over the last 52 weeks, while also becoming my rubber duckie for problem solving, this will never be forgotten.
+- To my faithful dog Ziggy, who helps me get out the door on many a walk, decompressing and figuring problems out while away from the screen.
+-  I would like to thank my mentor [Jubril Akolade](https://github.com/Jubrillionaire) whos support and patience helped guide me through this project.
+- My fellow students in no particular order [Paul Gleeson](https://github.com/Shaga-Matula), [Indrek Mannik](https://github.com/Inc21), 
+[Lornavav](https://github.com/Lornavav), [Darragh](https://github.com/d-lynch95), [Dayana](https://github.com/Dayana-N) (Not forgetting Brendan too) 
+ for all the advice, support and picking apart the puzzles that coding presents. 
+- Cohort facilitator Paul Thomas O'Riordan, for their general advice and support through out this course. 
+- The invaluable Slack community and tutors at tutor support, really helping in times of need.
+- This project was brought you by the power of............Cups of coffee = 72
