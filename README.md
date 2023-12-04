@@ -331,6 +331,22 @@ The products are displayed on cards which stack on top of each other neatly once
 If a product is added to the store without an image. The no image placeholder image will take its place.<br>
 ![](documentation/readme/noimage.png)
 
+- Filtering<br>
+The users can filter the products using the ‘Sort by…’ dropdown.<br>
+![](documentation/readme/sort.png)<br>
+
+- Back to Top Button<br>
+The back to top button plays an important role in the navigation of the website. The button is placed on the right of the screen and uses the [Font Awesome](https://fontawesome.com/) arrow-up icon.<br>
+![](documentation/readme/backtotop.png)
+
+- Product Count<br>
+The product count tells users how many products are available in their search or in the specific league category.<br>
+![](documentation/readme/product_count.png)
+
+- Product Detail<br>
+The product detail page includes the image, name, price, size and description. Below that there is a 'Keep Browsing' and an 'Add to Basket' button.<br>
+![](documentation/readme/product_detail_page.png)
+
 
 - Mailchimp Newsletter<br>
 The purpose is to get users to sign up to create a mailing list for email marketing.<br>
