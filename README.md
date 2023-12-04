@@ -686,6 +686,7 @@ For all testing, please refer to the [TESTING.md](TESTING.md) file.
 - [Pexels](https://www.pexels.com/) was used for the image on the 'home' page.
 - [Grammarly](https://www.grammarly.com/) was used to check the grammar of the website content.
 - [Termly](https://termly.io/products/refund-return-policy-generator/) was used to create the returns policy.
+- [perplexity.ai](https://www.perplexity.ai/) used for debugging and generating journal content
 
 Below are links I have used, I am conscious to include all links, to avoid any unwarranted plagerism. This project was the toughest yet and I know ive pulled from alot of resources:
 
