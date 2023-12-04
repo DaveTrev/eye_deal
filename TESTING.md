@@ -548,13 +548,17 @@ value="{{ item.quantity }}" tou your increment/decrement form in bag.html
 - allauth login page not loading
 After much searching and with help from the CI tutor support, clearing the cookies / cache helped to display the login page
 
-- nologo.png aws issue with thats to Dayana
+- nologo.png aws issue with thanks to Dayana [Dayana](https://github.com/Dayana-N)
 It may not make a difference but here is a thought, move these 4 lines above the If AWS statement.
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 I wonder, is it checking for the if statement and then overriding the settings on the next line if that makes sense
+
+- thanks to Dayana [Dayana](https://github.com/Dayana-N) spotting this.  "I noticed you have a field for gender but also there is category class.
+If gender is part of your product model then you will need to refine your products by gender instead of category. 
+You could also create a separate class gender like a subcategory connected to your product and filter that way too"
 
 - html validation, summernote causing errors in add and edit journal
 Multiple Errors all from summernote widget for blog content field
@@ -588,4 +592,23 @@ Now that your environment variables have been set in your env.py file, and the f
 SECRET_KEY = os.environ.get('SECRET_KEY')
 Make sure you save all your files before testing if it works.
 
+
+- Migration ( Discussion regarding exporting products to s3 without a fixtures file with the tutor team )
+Hi David, the only data that you really need to be concerned about is your products, Users should not be transferred over as this can lead to problems (I know this from debugging so many of these issues)
+
+- you can follow these steps for the app that you want to transfer the data over, if you have more than 1 app that you want to transfer over, then do them separately:
+
+​1. Make sure you are connected to the local Sqlite3 database in Gitpod.
+
+
+​2. Make a backup of the app's data that you want. For the example, we will use the "product" app.
+- (type this command, do not copy and paste):
+- python3 manage.py dumpdata products > products.json
+​
+​3. Make sure you are connected to the online Postgres database in Heroku.
+
+​4. Transfer the backup json file data that you just created.
+- (type this command, do not copy and paste):
+- python3 manage.py loaddata products.json
+​5. Repeat for any other apps you wish to transfer.
 

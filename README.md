@@ -1,4 +1,18 @@
 # Eye-deal Optics
+(Developer: David Trevaskis)
+
+![Mockup image](documentation/readme/amiresponsive.png)
+
+**Live Site:**
+
+You can reach the live site [here](https://eye-deal-e27624539e49.herokuapp.com/)
+
+**Link to Repository:**
+
+[Repository](https://github.com/DaveTrev/eye_deal)
+
+**Developed by: David Trevaskis**
+
 
 Eye deal optics is a optical retail e-commerce site. It sells limited ranges of bespoke and handmade spectacle frames and sunglasses. 
 
@@ -9,7 +23,7 @@ Date: 0424 <br>
 CVC: 242 <br>
 Postcode: 42424
 
-You can reach the live site [here](https://eye-deal-e27624539e49.herokuapp.com/)
+
 
 # Business Model 
 Eye Deal optics is a B2C business. The business sells optical and sun frames from small boutique makers from around the world. We advertise on Facebook, users can share the page to spread the word on the latest trends and pieces . The online store will sell and deliver goods to purchasing customers and all marketing will be done digitally.
@@ -82,30 +96,7 @@ The [Privacy Policy Generator](https://www.termly.io/) was employed to write Eye
 <hr>
 <br>
 
-## **Technologies Used**<br>
-- [HTML5](https://www.w3schools.com/html/) was used to create the structure of the website.
-- [CSS3](https://www.w3schools.com/css/) was used to style the website.
-- [JavaScript](https://www.javascript.com/) was used to add interactivity to the website.
-- [Python](https://www.python.org/) was used to build the backend of the website.
-- [Django](https://www.djangoproject.com/) was used to build the website.
-- [Django Allauth](https://django-allauth.readthedocs.io/en/latest/) was used for all account management.
-- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) was used to render the website forms.
-- [PostgresSQL](https://www.postgresql.org/) was used as the database during development.
-- [Gunicorn](https://gunicorn.org/) was used to run the application.
-- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) was used to style the website content.
-- [Git](https://git-scm.com/) was used for version control to commit and push to GitHub.
-- [GitPod](https://www.gitpod.io/) was used as the development environment. 
-- [GitHub](https://github.com/) was used to store the code.
-- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to fix errors and test responsiveness.
-- [Heroku](https://heroku.com/) was used to deploy the website.
-- [Elephant SQL](https://www.elephantsql.com/) was used to host the database.
-- [Font Awesome](https://fontawesome.com/) was used for the website icons.
-- [Google Fonts](https://fonts.google.com/) was used for the website font.
-- [Stripe](https://stripe.com/gb) was used to process the card payment functionality. 
-- [Amazon AWS](https://aws.amazon.com/) was used to store the static and media files.
-- [Pexels](https://www.pexels.com/) was used for the image on the 'home' page.
-- [Grammarly](https://www.grammarly.com/) was used to check the grammar of the website content.
-- [Termly](https://termly.io/products/refund-return-policy-generator/) was used to create the returns policy.
+
 
 
 
@@ -160,75 +151,6 @@ CHANGE FONT FROM LATO to custom!
 Merriweather chosen
 "Meriweather is quite popular and one of the widely used brand fonts for websites. Especially for the e-commerce ones. Indeed, it is pleasant to look at because of its condensed letterforms. Also, it is ideal for font pairings. If you wish to have a high-end brand image, then Merriweather is the best fonts style for it!"
 Taken from https://codetheorem.co/blogs/best-fonts-for-ecommerce-website
-
-Bugs
-Search bar returning products, not exactly correct?
-removing male / female dropdown toggle as filtering not working on gender? return to fix, below code removed from header "for him" "for her"
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="mens-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                For Him
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="mens-link">
-                <a href="{% url 'products' %}?category=Glasses&gender=Male" class="dropdown-item">Glasses</a>
-                <a href="{% url 'products' %}?category=Male,Sunglasses" class="dropdown-item">Sunglasses</a>
-                <a href="{% url 'products' %}?category=Male,Glasses,Sunglasses" class="dropdown-item">All Mens Frames</a>
-            </div>
-        </li>
-
-I noticed you have a field for gender but also there is category class. (with thanks to Dayana for this one)
-If gender is part of your product model then you will need to refine your products by gender instead of category. 
-You could also create a separate class gender like a subcategory connected to your product and filter that way too
-
-
-Bug - update number not reflecting in shopping bag, followed ado, number not reflecting items. return to fix!
-Roman From Ci Tutor Team helped me spot this one!
-value="{{ item.quantity }}" tou your increment/decrement form in bag.html
-
-https://elfsight.com/blog/how-to-create-recent-sales-notification-popup/#:~:text=The%20Recent%20Sales%20Notification%20popup,many%20e%2Dcommerce%20businesses%20nowadays.
-
-Popup? 
-
-Bug - allauth login page not loading, after much searching and with help from the CI tutor support, clearing the cookies / cache helped to display the login page
-
-
-
-
-bug - on mobile contact us success page hidden by navbar, return to fix
-
-
-nologo.png aws issue with thats to Dayana
-It may not make a difference but here is a thought, move these 4 lines above the If AWS statement.
-STATIC_URL = '/static/'
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-I wonder, is it checking for the if statement and then overriding the settings on the next line if that makes sense
-
-
-bug html validation, summernote causing errors in add and edit journaleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-	Multiple Errors all from summernote widget for blog content field
-
-
-
-migration
-Hi David, the only data that you really need to be concerned about is your products, Users should not be transferred over as this can lead to problems (I know this from debugging so many of these issues)
-
-you can follow these steps for the app that you want to transfer the data over, if you have more than 1 app that you want to transfer over, then do them separately:
-
-​﻿1. Make sure you are connected to the local Sqlite3 database in Gitpod.
-
-
-​﻿2. Make a backup of the app's data that you want. For the example, we will use the "product" app.
-﻿- (type this command, do not copy and paste):
-﻿- python3 manage.py dumpdata products > products.json
-​
-​﻿3. Make sure you are connected to the online Postgres database in Heroku.
-
-
-​﻿﻿4. Transfer the backup json file data that you just created.
-﻿- (type this command, do not copy and paste):
-﻿- python3 manage.py loaddata products.json
-​﻿﻿5. Repeat for any other apps you wish to transfer.
 
 
 checklist taken with thanks from https://github.com/Shaga-Matula
@@ -392,6 +314,31 @@ checklist taken with thanks from https://github.com/Shaga-Matula
 <br>
 
 ## Credits
+
+### **Technologies Used**<br>
+- [HTML5](https://www.w3schools.com/html/) was used to create the structure of the website.
+- [CSS3](https://www.w3schools.com/css/) was used to style the website.
+- [JavaScript](https://www.javascript.com/) was used to add interactivity to the website.
+- [Python](https://www.python.org/) was used to build the backend of the website.
+- [Django](https://www.djangoproject.com/) was used to build the website.
+- [Django Allauth](https://django-allauth.readthedocs.io/en/latest/) was used for all account management.
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) was used to render the website forms.
+- [PostgresSQL](https://www.postgresql.org/) was used as the database during development.
+- [Gunicorn](https://gunicorn.org/) was used to run the application.
+- [Bootstrap](https://getbootstrap.com/docs/4.3/getting-started/introduction/) was used to style the website content.
+- [Git](https://git-scm.com/) was used for version control to commit and push to GitHub.
+- [GitPod](https://www.gitpod.io/) was used as the development environment. 
+- [GitHub](https://github.com/) was used to store the code.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to fix errors and test responsiveness.
+- [Heroku](https://heroku.com/) was used to deploy the website.
+- [Elephant SQL](https://www.elephantsql.com/) was used to host the database.
+- [Font Awesome](https://fontawesome.com/) was used for the website icons.
+- [Google Fonts](https://fonts.google.com/) was used for the website font.
+- [Stripe](https://stripe.com/gb) was used to process the card payment functionality. 
+- [Amazon AWS](https://aws.amazon.com/) was used to store the static and media files.
+- [Pexels](https://www.pexels.com/) was used for the image on the 'home' page.
+- [Grammarly](https://www.grammarly.com/) was used to check the grammar of the website content.
+- [Termly](https://termly.io/products/refund-return-policy-generator/) was used to create the returns policy.
 
 Below are links I have used, I am conscious to include all links, to avoid any unwarranted plagerism. This project was the toughest yet and I know ive pulled from alot of resources:
 
