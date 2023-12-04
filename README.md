@@ -191,22 +191,7 @@ Popup?
 Bug - allauth login page not loading, after much searching and with help from the CI tutor support, clearing the cookies / cache helped to display the login page
 
 
-env file setup - as per CI Tutor Roman
-For setting env vars locally, we recommend setting them like this:
-Create a file named env.py in the root directory of your project. This is the file you will use to define your environment variables.
-If you don't have one already, create a file named .gitignore  in the root directory of your project.
- Next we need to stop git from pushing this file to github, and so keep your environment variables secret. To do this, open your .gitignore  file add the following text to it: env.py 
-At the top of your env.py  file, you need to import os so that you can set the environment variables in the operating system. Once you have added the line “import os” underneath you can assign your environment variables using the following syntax: 
-os.environ["Variable Name Here"] = "Value of Variable Goes Here" 
-Example: os.environ["SECRET_KEY"] = "ohsosecret" 
-Then the following code imports this new env.py file where you need to use your environment variables. For example your app.py file for flask project or settings.py file for Django project. Add this under your other imports at the top of the file. 
-import os
-if os.path.exists("env.py"):
-  import env 
-The if statement here is so that the env.py file is only pulled when working on your code in your workspace, not when it is deployed on heroku. For deployment you can set your environment variables in the heroku dashboard in settings > config vars.
-Now that your environment variables have been set in your env.py file, and the file has been imported into your project, you can use them as needed using the following syntax: 
-SECRET_KEY = os.environ.get('SECRET_KEY')
-Make sure you save all your files before testing if it works.
+
 
 bug - on mobile contact us success page hidden by navbar, return to fix
 
