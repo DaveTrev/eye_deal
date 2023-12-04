@@ -534,6 +534,13 @@ Here is the given information converted to markdown:
 
 ## Bugs
 
+### Unfixed Bugs
+
+- footer sitting too high on some pages
+
+- footer social links not sitting to the right and left on desktop (works with just FB link as originally designed / works on mobile)
+
+### Fixed Issues
 - Search bar returning products, not exactly correct?
 removing male / female dropdown toggle as filtering not working on gender? return to fix, below code removed from header "for him" "for her"
 

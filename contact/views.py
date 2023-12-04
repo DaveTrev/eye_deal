@@ -4,6 +4,7 @@ from django.contrib import messages
 
 
 def contact_view(request):
+    """ Handle contact form """
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
