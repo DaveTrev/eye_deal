@@ -355,6 +355,43 @@ Adding products to the store is only available to site owners. The 'Product Mana
 The Product a shirt from the store functionality is only available to site owners. Once the blue 'Edit' button is clicked, an edit shirt form will appear for the site user to fill in.<br>
 ![](documentation/readme/product_edit.png)
 
+- Delete a shirt from the store<br>
+The delete a product from the store functionality is only available to site owners. Once the red 'Delete' button is clicked<br>
+![](documentation/readme/delete_button.png)
+![](documentation/readme/product_delete.png)
+
+- Basket<br>
+The basket display's the shoppers items in a list, including the image, name, and price. If multiple items are in the basket they will stack above each other. The basket is responsive on smaller screens as well.<br>
+![](documentation/readme/bag_stack.png)
+
+- Basket Total<br>
+The basket totals display the bag total, delivery cost and grand total. If the order is below £100 there will be a delivery charge of 5%. However, the basket totals will notify the customer how much more they need to spend to get free delivery. The 'Secure Checkout' and 'Keep Shopping' buttons are placed close to the basket totals to guide the shopper to the next step.<br>
+![](documentation/readme/shopping_bag.png)
+
+- Checkout<br>
+The checkout page is split into three sections. 'Your Details' which requires the customer's name, email. 'Delivery' requires the customer's delivery address. Lastly, the 'Payment' section which is facilitated by [Stripe](https://stripe.com). If you want to test the payment system, use these test card details: <br>
+Card Number: 4242 4242 4242 4242 <br>
+Date: 0424 <br>
+CVC: 242 <br>
+Postcode: 42424<br>
+![](documentation/readme/checkout.png)
+
+
+- Confirmation<br>
+Once the customer has successfully checked out, they will be directed to the order confirmation page. This will show their order details.<br>
+![](documentation/readme/thank_confirmation.png)
+
+- Confirmation Email<br>
+A confirmation email is sent to the customer once an order has been placed. This has been tested with [Temp Mail](https://temp-mail.org/en/) as seen in the image below. The email will thank the customer and provide their order details. This is an integral part of e-commerce websites as it shows professionalism and builds trust with the customer letting the customer know their order has been placed successfully.<br>
+![](documentation/readme/email_confirmation.png)
+
+
+- Leave a Review<br>
+Site users have the ability to leave a review to express their satisfaction/dissatisfaction with the company. A form is displayed where the user is asked to provide a rating and a comment. The recent reviews are also displayed on the 'Reviews' page. These can be managed by the site owner in the admin. A max height is provided so if the recent reviews exceed that, then a scroll bar is provided to view older reviews.
+![](documentation/readme/reviews.png)
+
+
+
 
 - Mailchimp Newsletter<br>
 The purpose is to get users to sign up to create a mailing list for email marketing.<br>
