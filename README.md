@@ -280,7 +280,14 @@ Taken from [Code Theorem](https://codetheorem.co/blogs/best-fonts-for-ecommerce-
 
 
 
+### **Future Features**
+- Stock Tracker
+- Filtering by size
+- Adding Podcast links to Journal section
 
+<br>
+<hr>
+<br>
 
 
 
@@ -342,40 +349,6 @@ The [Privacy Policy Generator](https://www.termly.io/) was employed to write Eye
 
 For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
-
-
-
-
-
-
-CUSTOM MODELS (potentially):
-contact us page
-reviews
-journal for site owner
-wishlist for products?
-
-
-Erd
-import diagram
-
-inital commit
-setup all auth
-setting up base.html
-index.html
-
-Ignoring adding sizes to products as majority of stock single pieces / handmade, one size available.
-possibly return to add functionality later (adding products part 4)
-
-
-
-checklist taken with thanks from https://github.com/Shaga-Matula
-## Tasks :
-- [ ] <label><input type="checkbox" disabled /> Task 1 : ###############</label>
-- [ ] <label><input type="checkbox" disabled /> Task 2 : ###############</label>
-- [ ] <label><input type="checkbox" disabled /> Task 3 : ###############</label>
-## Acceptance Criteria :
-- [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
-- [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
 
 # Deployment
 
@@ -562,6 +535,9 @@ Below are links I have used, I am conscious to include all links, to avoid any u
 
 - The "think therefore I am" walkthorugh was also used to help create the journal section of the site.
 
+- the [kitbag](https://github.com/dansantinojones/the-kitbag/tree/main) and [retro reboot](https://github.com/adamgilroy22/retro-reboot/tree/main), 
+provided tons of insipration for work on this project, projects and work I could only aspire to!
+
 - all images are taken from either pexels or unsplash
 
 - orgreen optics 
@@ -702,8 +678,8 @@ I would like to thank:
 - To my faithful dog Ziggy, who helps me get out the door on many a walk, decompressing and figuring problems out while away from the screen.
 -  I would like to thank my mentor [Jubril Akolade](https://github.com/Jubrillionaire) whos support and patience helped guide me through this project.
 - My fellow students in no particular order [Paul Gleeson](https://github.com/Shaga-Matula), [Indrek Mannik](https://github.com/Inc21), 
-[Lornavav](https://github.com/Lornavav), [Darragh](https://github.com/d-lynch95), [Dayana](https://github.com/Dayana-N) (Not forgetting Brendan too) 
+[Lornavav](https://github.com/Lornavav), [Darragh](https://github.com/d-lynch95), [Dayana](https://github.com/Dayana-N) and [Brendan Cooney](https://github.com/BrendanCooney)
  for all the advice, support and picking apart the puzzles that coding presents. 
 - Cohort facilitator Paul Thomas O'Riordan, for their general advice and support through out this course. 
 - The invaluable Slack community and tutors at tutor support, really helping in times of need.
-- This project was brought you by the power of............Cups of coffee = 73
+- This project was brought you by the power of............Cups of coffee = 74
