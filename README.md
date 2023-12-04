@@ -319,6 +319,19 @@ Site users can log in to their account once they have registered.<br>
 Site users can log out of their account.<br>
 ![](documentation/readme/sign_out.png)
 
+- Password Reset<br>
+The user has the ability to reset their password using the 'Forgot my password' link.<br>
+![](documentation/readme/password_reset.png)
+
+- Products Cards<br> 
+The products are displayed on cards which stack on top of each other neatly once the screen size is reduced. <br>
+![](documentation/readme/product_card.png)
+
+- No Image<br>
+If a product is added to the store without an image. The no image placeholder image will take its place.<br>
+![](documentation/readme/noimage.png)
+
+
 - Mailchimp Newsletter<br>
 The purpose is to get users to sign up to create a mailing list for email marketing.<br>
 ![](documentation/readme/mailchimp.png)
