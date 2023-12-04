@@ -431,6 +431,7 @@ It is important to include this on the website as it tells users how and why we 
 - 404<br>
 A 404 error page will display when a user tries to access a page that doesn't exist. A 'Return to Store' button is provided for users.<br>
 ![](documentation/readme/404.png)
+![](documentation/readme/404_fix.png) **overlay added** 
 
 - Footer<br>
 The footer is consistent on all pages of the website. It includes a copyright marker and a disclaimer. Either side, displays links to the FAQ's, Contact Us, Privacy Policy and Returns Policy.<br>
