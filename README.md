@@ -421,12 +421,9 @@ Icons for the number of likes and comments to quickly show users activity on pos
 ![](documentation/readme/likes_comments.png)
 
 - Privacy Policy<br>
-It is important to include this on the website as it tells users how and why we are collecting their personal information. From a SEO and Marketing stance, search engine algorithms will find the site trustworthy and prioritise it over websites without one.<br>
+It is important to include this on the website as it tells users how and why we are collecting their personal information. From a SEO and Marketing stance, search engine algorithms will find the site trustworthy and prioritise it over websites without one. I have added a returns and refund policy<br>
 ![](documentation/readme/privacy.png)
 
-- Returns Policy<br>
-<br>
-![](documentation/readme/returns_refunds.png)
 
 - 404<br>
 A 404 error page will display when a user tries to access a page that doesn't exist. A 'Return to Store' button is provided for users.<br>
