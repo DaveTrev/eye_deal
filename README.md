@@ -299,13 +299,25 @@ The dropdown menus were created to store additional pages without cluttering the
 ![](documentation/readme/allprod.png)
 ![](documentation/readme/myaccount.png)
 
-- Basket Icon
+- Bag Icon
 This allows site users to always view the basket total.<br>
 ![](documentation/readme/bagicon.png)
 
 - Alert Messages<br>
 Alert messages are very important in communicating back to the user once an action is taken.<br>
 ![](documentation/readme/successalert.png)<br>
+
+- Register for an account<br>
+Users can register for an account through the 'Register' page.<br>
+![](documentation/readme/signup.png)
+
+- Log in<br>
+Site users can log in to their account once they have registered.<br>
+![](documentation/readme/sign_in.png)
+
+- Logout<br>
+Site users can log out of their account.<br>
+![](documentation/readme/sign_out.png)
 
 - Mailchimp Newsletter<br>
 The purpose is to get users to sign up to create a mailing list for email marketing.<br>
