@@ -400,6 +400,26 @@ The 'Contact Us' page shows a form with contact reason, name, email, message. Th
 The purpose is to get users to sign up to create a mailing list for email marketing.<br>
 ![](documentation/readme/mailchimp.png)
 
+- Journal<br>
+The blog section of the site allows the site user to create content to help build a audience<br>
+![](documentation/readme/journal.png)
+
+- Journal post<br>
+The post detail of the journal<br>
+![](documentation/readme/journal_post.png)
+
+- Post Edit<br>
+Allows the site owner to edit previous posts<br>
+![](documentation/readme/Journal_edit.png)
+
+- Journal Comment<br>
+Site users who are signed in can leave comments and likes on each post<br>
+![](documentation/readme/comment.png)
+
+- Likes / comments icons<br>
+Icons for the number of likes and comments to quickly show users activity on posts<br>
+![](documentation/readme/likes_comments.png)
+
 - Privacy Policy<br>
 It is important to include this on the website as it tells users how and why we are collecting their personal information. From a SEO and Marketing stance, search engine algorithms will find the site trustworthy and prioritise it over websites without one.<br>
 ![](documentation/readme/privacy.png)
