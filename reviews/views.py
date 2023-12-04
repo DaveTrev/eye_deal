@@ -1,7 +1,11 @@
 from django.shortcuts import render, redirect, reverse
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import get_object_or_404
 from django.contrib import messages
 from .models import Review
 from .forms import PostReviewForm
+
+
 
 
 def reviews(request):
@@ -27,4 +31,11 @@ def reviews(request):
         'form': form,
     }
     return render(request, template, context)
+
+
+@login_required
+def delete_review(request, pk):
+    review = get_object_or_404(Review, pk=pk)
+    review.delete()
+    return redirect(reverse('reviews'))
 
