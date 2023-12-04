@@ -35,7 +35,7 @@ Pass: No Errors
 
 | Journal Post | 
 ![screenshot](documentation/testing/html/journal_post.png) 
-**Error**: The  `font`  element is obsolete.  [ Found late in submission process to return and fix ]
+**Error**: The  `font`  element is obsolete.  [ Found late in submission process to return and fix, I did not have time before submisson to correct this. ]
 
 | Register | 
 ![screenshot](documentation/testing/html/Register.png)
@@ -265,8 +265,6 @@ Pass: No Errors
 
 
 
-
-
 | Products admin.py | ![screenshot](documentation/testing/python/products/admin.png) | Pass: No Errors |
 | Products forms.py | ![screenshot](documentation/testing/python/products/forms.png) | Pass: No Errors |
 | Products models.py | ![screenshot](documentation/testing/python/products/models.png) | Pass: No Errors |
@@ -286,6 +284,40 @@ Pass: No Errors
 | Project Level settings.py | ![screenshot](documentation/testing/python/project/settings.png) | Pass: No Errors |
 | Project Level urls.py | ![screenshot](documentation/testing/python/project/urls.png) | Pass: No Errors |
 | Project Level views.py | ![screenshot](documentation/testing/python/project/views.png) | Pass: No Errors |
+
+
+###Manual Testing
+
+| Feature | Test  | Expected Result | Actual Result |
+|-|-|-|-|  
+| Eye Deal logo | Selecting logo on homepage | directs user back to homepage | Pass |
+| Navigation Links | Selecting navigation links | directs user to relevant pages | Pass | 
+| All Products | Selecting All for each category | directs user to show all relevant Products on the same page | Pass |
+| Sort By | Selecting the filter Sort by for each category | successfully alters the search by price and name options reflects results accordingly on page | Pass |
+| Contact Us | Selecting Contact Us | directs user to Contact Us page | Pass | 
+| Submitting Review Form | Editing details in review form on Products | successfully edits message to admin and displays success message | Pass |
+| User Access | Logged in as user | I can leave a review comment on products | Pass |
+| Form Validation Required fields | Filling in form on /contact page | requires name, email and body and contact reason selected to send to Django admin | Pass |
+| Contact form submission | submit contact form | successfully sends data to Django admin as expected | Pass |
+| Register | Register for an account | selecting Register in my account directs user to /accounts/signup/ page | Pass |
+| Login | Login to an account | selecting Login in my account directs user to /accounts/Login/ page | Pass |
+| Search | Using the search box | Some search terms do not behave as expected return to fix | Fail | 
+| Back to top | Back to top box | Selecting the back to top box on the products pages brings the user back to the top of the page | Pass | 
+| Search no results | No search results | Entering a no results search returns error message and shows all products | Pass |
+| New User | Registering as a new user | Registering as a new user entering form validation works | Pass |
+| Admin | Logging in as superuser / admin | Logging in as superuser / admin directs user to admin access, shows add product, post | Pass |
+| Login Message | log-in Success | "successfully signed in as (user name)" message shown to user | Pass |
+| Add Product | Adding a new product | Adding a new product on the product management page successfully adds product | Pass |
+| Add Product | no image is selected | default image is used | Pass |
+| Deleting Product | Deleting selected product | removed product from search | Pass |
+| Deleting Message | Deleting product confirmation | Confirmation message of deletion is shown when successfully deleted | Pass |
+| Defensive Programming | Users not permitted to access create/update/delete products articles or reviews if they don't have access permission | Pass |
+| Logging out | message shown | Logging out as a user / admin prompts "are you sure" message | Pass |
+| Successfully signed out | signed out message shown | "You have signed out" message shows to user when successfully signed out | Pass |
+| Logging out | Logging out and redirect | Logging out as a user / admin directs user to homepage | Pass |
+| Footer | social media links | Clicking on the social media icons in the footer open the link in a new tab | Pass |
+| Footer | Privacy Policy links | Clicking on the Privacy Policy link in the footer diverts user to the /privacy/ page | Pass |
+
 
 
 ## Browser Compatibility

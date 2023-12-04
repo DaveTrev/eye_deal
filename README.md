@@ -38,8 +38,7 @@ These will all be covered in more detail below.
 
 ### **Search Engine Optimization (SEO)**
 Keywords were identified through [Wordtracker](https://www.wordtracker.com/search) and [Google Trends](https://trends.google.com/home). These tools helped me identify what keywords users are searching for. To test the relevance of the keywords, each keyword was entered into [Google](https://www.google.com/) to find out the number of results and search suggestions, the most relevant were added to the keyword list. Once chosen the most suitable, these keywords were included in meta tags, titles, descriptions, headings and the content throughout the website to improve the SEO ranking. 
-
-***** add meta image here
+![screenshot](documentation/readme/meta_words.png)
 
 <br>
 <hr>
@@ -62,6 +61,7 @@ A sitemap file with a list of important URLs is important for search engines to 
 
 ### **Social Media Marketing**<br>
 Social media marketing will be integral to the success of Eye-deal. The most popular platform for social media marketing is Facebook: [Eye-Deal Optics Facebook](https://www.facebook.com/people/Eye-Deal-Optics/61554309323903/). This platform provides a link to the website, contact details and opening times. The social media accounts will be used to create interactive posts promoting new stock and encouraging sign-ups, driving traffic to the website and encouraging two-way communication.
+![screenshot](documentation/readme/fb_page.png)
 
 
 <br>
@@ -69,7 +69,7 @@ Social media marketing will be integral to the success of Eye-deal. The most pop
 <br>
 
 ### **Email Marketing**<br>
-Creating a mailing list for email marketing by using the 'Sign Up to Newsletter' option. Every month, the store will add new things to its inventory. First access to these products will be granted to users who have subscribed to the newsletter. Email marketing will be utilised to drive visitors to the website by means of weekly newsletters with a call to action sent out via [Mail Chimp](https://mailchimp.com). 
+Creating a mailing list for email marketing by using the 'Sign Up to Newsletter' option. Every month, the store will add new things to its inventory. First access to these products will be granted to users who have subscribed to the newsletter. Email marketing will be utilised to drive visitors to the website by means of weekly newsletters with a call to action sent out via [Mail Chimp](https://mailchimp.com). The power and ease of mailchimp is very impressive, going forward newsletters can be designed with ease to reach out to customers and drive business.
 
 <br>
 <hr>
@@ -144,18 +144,6 @@ sprints oct/nov 23
 remember - mailchimp, meta descriptions, sitemap, robot.txt, 404 facebook mockup, favicon
 5. (26 - 2) style / readme / ecomm / robots / fb page / tidy submit
 
-
-
-landing page images
-https://www.pexels.com/photo/two-clear-eyeglasses-with-gray-frames-1493112/
-https://www.pexels.com/photo/portrait-photo-of-woman-in-yellow-turtleneck-sweater-and-eyeglasses-in-front-of-blue-background-3765124/
-https://www.pexels.com/photo/stylish-eyeglasses-placed-on-beige-surface-4226877/
-
-wireframe 
-https://wireframepro.mockflow.com/editor.jsp?editor=on&publicid=Me55d7974c8b9921ba0e8317d6a0614db1697961926877&perm=Create&projectid=MxuLS39jMh&spaceid=MqwXAeI7Lpb&ptitle=p5%20-%20eyedeal&bgcolor=white&category=web&pcompany=C7b4955d147c64bb6990d17826f0d480e&space=MqwXAeI7Lpb#/page/188b81619924412797f2a96d32f9d838
-
-Bootstrap Product List Carousel for Ecommerce Website
-https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=product-list-carousel-for-ecommerce-website
 
 Erd
 import diagram
@@ -586,7 +574,6 @@ https://mdbootstrap.com/docs/standard/navigation/footer/
 - generating returns policy, privacy policy
 https://app.termsfeed.com/
 
-
 - cropping images (fantastic site for bulk cropping)
 https://bulkimagecrop.com/ 
 
@@ -641,13 +628,22 @@ https://www.youtube.com/watch?v=6-XXvUENY_8
 - add all auth instead of from django.contrib.auth.views import LoginView
 https://django-allauth.readthedocs.io/en/latest/
 
+- landing page image
+https://www.pexels.com/photo/stylish-eyeglasses-placed-on-beige-surface-4226877/
+
+- wireframe 
+https://wireframepro.mockflow.com/editor.jsp?editor=on&publicid=Me55d7974c8b9921ba0e8317d6a0614db1697961926877&perm=Create&projectid=MxuLS39jMh&spaceid=MqwXAeI7Lpb&ptitle=p5%20-%20eyedeal&bgcolor=white&category=web&pcompany=C7b4955d147c64bb6990d17826f0d480e&space=MqwXAeI7Lpb#/page/188b81619924412797f2a96d32f9d838
+
+- Bootstrap Product List Carousel for Ecommerce Website
+https://www.tutorialrepublic.com/snippets/preview.php?topic=bootstrap&file=product-list-carousel-for-ecommerce-website
+
 
 
 ## Acknowledgements
 
 I would like to thank:
 
-- As always, many many thanks to my better half Jenny and my kids Rose and Ollie for their ongoing patience while I worked on this project and disappeared for weeks. Jenny has endured a very absent partner over the last 52 weeks, while also becoming my rubber duckie for problem solving, this will never be forgotten.
+- As always, many many thanks to my better half Jenny and my kids Rose and Ollie for their ongoing patience while I worked on this final project and disappeared for weeks / months. Jenny has endured a very absent partner over the last 52 weeks, while also becoming my rubber duckie for problem solving, this will never be forgotten.
 - To my faithful dog Ziggy, who helps me get out the door on many a walk, decompressing and figuring problems out while away from the screen.
 -  I would like to thank my mentor [Jubril Akolade](https://github.com/Jubrillionaire) whos support and patience helped guide me through this project.
 - My fellow students in no particular order [Paul Gleeson](https://github.com/Shaga-Matula), [Indrek Mannik](https://github.com/Inc21), 
