@@ -151,6 +151,13 @@ Epic 10 Tasks
 Prior to writing any code, initial wireframes were drawn with pencil and paper. Once happy with the layout and design, I used [Wireframepro](https://wireframepro.mockflow.com/) to create my wireframes.
 ![Mockup image](documentation/readme/wireframe.png)
 
+### **Database Diagram**
+Below is my database diagram and the relationships between them. 
+![ERD image](documentation/readme/Erd.png)
+
+
+
+
 
 
 
@@ -421,6 +428,7 @@ checklist taken with thanks from https://github.com/Shaga-Matula
 - [Chrome DevTools](https://developer.chrome.com/docs/devtools/) was used to fix errors and test responsiveness.
 - [Heroku](https://heroku.com/) was used to deploy the website.
 - [Elephant SQL](https://www.elephantsql.com/) was used to host the database.
+- [Lucid App](https://www.lucidchart.com/) was used to create erd diagram
 - [Font Awesome](https://fontawesome.com/) was used for the website icons.
 - [Google Fonts](https://fonts.google.com/) was used for the website font.
 - [Stripe](https://stripe.com/gb) was used to process the card payment functionality. 
