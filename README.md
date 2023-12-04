@@ -58,9 +58,9 @@ The must-have features were completed first, then the should have's, then the co
 #### **Sprints**<br> 
 
 1. Full CRUD
-2. checkout functionality 
-3. ui/ux updates
-4. Finishing documentation, SEO, meta data, facebook page, 
+2. checkout functionality
+3. ui/ux updates, mailchimp, meta descriptions, sitemap, robot.txt, 404 facebook mockup, favicon
+4. Finishing documentation, SEO, meta data, facebook page,
 
 <hr>
 
@@ -152,6 +152,8 @@ Prior to writing any code, initial wireframes were drawn with pencil and paper. 
 ![Mockup image](documentation/readme/wireframe.png)
 
 
+
+
 # **Marketing Strategy**
 The marketing strategies chosen for Eye-Deal will be SEO, Social Media Marketing and Email Marketing. Pages such as robots.txt, sitemap and privacy policy help SEO ranking.
 These will all be covered in more detail below.
@@ -206,6 +208,9 @@ The [Privacy Policy Generator](https://www.termly.io/) was employed to write Eye
 <hr>
 <br>
 
+## Testing
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
 
 
 
@@ -218,14 +223,6 @@ contact us page
 reviews
 journal for site owner
 wishlist for products?
-
-sprints oct/nov 23
-1. (29 - 4) product setup filter & sort - done
-2. (5- 11) shopping bag - adding products - done
-3. (12-18) checkout / stripe - done
-4. (19 - 25) profiles deploy / journal / contact us
-remember - mailchimp, meta descriptions, sitemap, robot.txt, 404 facebook mockup, favicon
-5. (26 - 2) style / readme / ecomm / robots / fb page / tidy submit
 
 
 Erd
