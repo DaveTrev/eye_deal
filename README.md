@@ -347,6 +347,14 @@ The product count tells users how many products are available in their search or
 The product detail page includes the image, name, price, size and description. Below that there is a 'Keep Browsing' and an 'Add to Basket' button.<br>
 ![](documentation/readme/product_detail_page.png)
 
+- Add a Product to the store<br>
+Adding products to the store is only available to site owners. The 'Product Management' page provides a form for the site owner to fill in.<br>
+![](documentation/readme/product_add.png)
+
+- Edit a product in the store<br>
+The Product a shirt from the store functionality is only available to site owners. Once the blue 'Edit' button is clicked, an edit shirt form will appear for the site user to fill in.<br>
+![](documentation/readme/product_edit.png)
+
 
 - Mailchimp Newsletter<br>
 The purpose is to get users to sign up to create a mailing list for email marketing.<br>
