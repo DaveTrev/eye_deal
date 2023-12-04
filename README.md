@@ -156,6 +156,129 @@ Below is my database diagram and the relationships between them.
 ![ERD image](documentation/readme/Erd.png)
 
 
+#### Product
+
+| Field Name   | Field Type     | Additional Properties        | Choices                           | Max Length |
+|--------------|----------------|------------------------------|-----------------------------------|------------|
+| name         | CharField      | N/A                          | N/A                               | 254        |
+| price        | DecimalField   | max_digits=10, decimal_places=2 | N/A                           | N/A        |
+| image        | ImageField     | null=True, blank=True         | N/A                               | N/A        |
+| brand        | CharField      | N/A                          | N/A                               | 254        |
+| sku          | CharField      | N/A                          | N/A                               | 50         |
+| description  | TextField      | N/A                          | N/A                               | 800        |
+| colour       | CharField      | N/A                          | N/A                               | 50         |
+| gender       | CharField      | N/A                          | N/A                               | 50         |
+| type         | CharField      | Glasses, Sunglasses          | N/A                               | 50         |
+| material     | CharField      | Acetate, Metal, Titanium     | N/A                               | 50         |
+| shape        | CharField      | N/A                          | N/A                               | 50         |
+| size         | CharField      | N/A                          | N/A                               | 50         |
+| category     | ForeignKey     | on_delete=models.SET_NULL, null=True, blank=True | N/A             | N/A        |
+
+
+#### Review
+| Field Name    | Field Type    | Additional Properties        | Choices                           | Max Length |
+|---------------|---------------|------------------------------|-----------------------------------|------------|
+| customer_name | CharField     | null=False, blank=False      | N/A                               | 50         |
+| email         | EmailField    | null=False, blank=False      | N/A                               | N/A        |
+| rating        | DecimalField  | max_digits=6, decimal_places=2, validators=[MinValueValidator(0), validate_rating] | N/A | N/A        |
+| product_type  | CharField     | N/A                          | Glasses, Sunglasses               | 50         |
+| body_text     | TextField     | N/A                          | N/A                               | N/A        |
+| created_on    | DateTimeField | auto_now_add=True            | N/A                               | N/A        |
+
+#### Order
+
+| Field Name      | Field Type     | Additional Properties        | Choices                           | Max Length |
+|-----------------|----------------|------------------------------|-----------------------------------|------------|
+| order_number    | CharField      | null=False, editable=False   | N/A                               | 32         |
+| user_profile    | ForeignKey     | on_delete=models.SET_NULL, null=True, blank=True, related_name='orders' | N/A | N/A        |
+| full_name       | CharField      | null=False, blank=False      | N/A                               | 50         |
+| email           | EmailField     | null=False, blank=False      | N/A                               | 254        |
+| phone_number    | CharField      | null=False, blank=False      | N/A                               | 20         |
+| country         | CountryField   | blank_label='Country *', null=False, blank=False | N/A             | N/A        |
+| postcode        | CharField      | null=True, blank=True        | N/A                               | 20         |
+| town_or_city    | CharField      | null=False, blank=False      | N/A                               | 40         |
+| street_address1 | CharField      | null=False, blank=False      | N/A                               | 80         |
+| street_address2 | CharField      | null=True, blank=True        | N/A                               | 80         |
+| county          | CharField      | null=True, blank=True        | N/A                               | 80         |
+| date            | DateTimeField  | auto_now_add=True            | N/A                               | N/A        |
+| delivery_cost   | DecimalField   | null=False, default=0        | N/A                               | 6,2        |
+| order_total     | DecimalField   | null=False, default=0        | N/A                               | 10,2       |
+| grand_total     | DecimalField   | null=False, default=0        | N/A                               | 10,2       |
+| original_bag    | TextField      | null=False, blank=False, default='' | N/A                       | N/A        |
+| stripe_pid      | CharField      | null=False, blank=False, default='' | N/A                       | 254        |
+
+#### Order line item
+| Field Name     | Field Type    | Additional Properties        | Choices                           | Max Length |
+|----------------|---------------|------------------------------|-----------------------------------|------------|
+| order          | ForeignKey    | null=False, blank=False      | N/A                               | N/A        |
+| product        | ForeignKey    | null=False, blank=False      | N/A                               | N/A        |
+| quantity       | IntegerField  | null=False, blank=False, default=0 | N/A                        | N/A        |
+| lineitem_total | DecimalField  | max_digits=6, decimal_places=2, null=False, blank=False, editable=False | N/A | N/A        |
+
+#### User Profile
+
+| Field Name           | Field Type     | Additional Properties        | Choices                           | Max Length |
+|----------------------|----------------|------------------------------|-----------------------------------|------------|
+| user                 | OneToOneField  | on_delete=models.CASCADE     | N/A                               | N/A        |
+| default_phone_number | CharField      | null=True, blank=True         | N/A                               | 20         |
+| default_street_address1 | CharField   | null=True, blank=True         | N/A                               | 80         |
+| default_street_address2 | CharField   | null=True, blank=True         | N/A                               | 80         |
+| default_town_or_city  | CharField     | null=True, blank=True         | N/A                               | 40         |
+| default_county       | CharField      | null=True, blank=True         | N/A                               | 80         |
+| default_postcode     | CharField      | null=True, blank=True         | N/A                               | 20         |
+| default_country      | CountryField   | blank_label='Country *', null=True, blank=True | N/A             | N/A        |
+
+#### Contact form
+
+| Field Name       | Field Type    | Additional Properties        | Choices                           | Max Length |
+|------------------|---------------|------------------------------|-----------------------------------|------------|
+| contact_reason   | CharField     | default="general_query", null=False, blank=False | CONTACT_REASONS | 100        |
+| name             | CharField     | null=False, blank=False      | N/A                               | 50         |
+| email            | EmailField    | null=False, blank=False      | N/A                               | 250        |
+| message          | TextField     | null=False, blank=False      | N/A                               | 400        |
+
+
+#### Post
+
+| Field Name  | Field Type    | Additional Properties        | Choices                           | Max Length |
+|-------------|---------------|------------------------------|-----------------------------------|------------|
+| title       | CharField     | unique=True                  | N/A                               | 200        |
+| slug        | SlugField     | unique=True                  | N/A                               | 200        |
+| author      | ForeignKey    | on_delete=models.CASCADE, related_name="blog_posts" | N/A             | N/A        |
+| updated_on  | DateTimeField | auto_now=True                | N/A                               | N/A        |
+| content     | TextField     | N/A                          | N/A                               | N/A        |
+| image       | ImageField    | null=True, blank=True        | N/A                               | N/A        |
+| excerpt     | TextField     | N/A                          | N/A                               | N/A        |
+| created_on  | DateTimeField | auto_now_add=True            | N/A                               | N/A        |
+| published   | BooleanField  | default=False                | N/A                               | N/A        |
+| likes       | ManyToManyField| related_name='blog_likes', blank=True | N/A                       | N/A        |
+| categories  | ManyToManyField| related_name='posts'         | N/A                               | N/A        |
+
+#### Comment
+
+| Field Name  | Field Type   | Additional Properties  | Max Length |
+|-------------|--------------|------------------------|------------|
+| post        | ForeignKey   | on_delete=models.CASCADE, related_name='comments' | N/A |
+| name        | CharField    | null=False, blank=False | 80         |
+| email       | EmailField   | null=False, blank=False | 250        |
+| body        | TextField    | null=False, blank=False | N/A        |
+| created_on  | DateTimeField| auto_now_add=True      | N/A        |
+| approved    | BooleanField | default=True           | N/A        |
+
+
+
+## **Surface Plane**
+
+### **Colours**<br>
+The Spectacle frames at the store are vibrant and colourful, therefore the main colours chosen for the website are neutral which avoids any colour clashes.
+
+### **Typography**<br>
+The font for the website was chosen using [Google Fonts](https://fonts.google.com/). I decided to use the font 'Merriweather '. "Meriweather is quite popular and one of the widely used brand fonts for websites. Especially for the e-commerce ones. Indeed, it is pleasant to look at because of its condensed letterforms. Also, it is ideal for font pairings. If you wish to have a high-end brand image, then Merriweather is the best fonts style for it!"
+Taken from [Code Theorem](https://codetheorem.co/blogs/best-fonts-for-ecommerce-website)
+
+
+
+
 
 
 
@@ -243,10 +366,6 @@ index.html
 Ignoring adding sizes to products as majority of stock single pieces / handmade, one size available.
 possibly return to add functionality later (adding products part 4)
 
-CHANGE FONT FROM LATO to custom!
-Merriweather chosen
-"Meriweather is quite popular and one of the widely used brand fonts for websites. Especially for the e-commerce ones. Indeed, it is pleasant to look at because of its condensed letterforms. Also, it is ideal for font pairings. If you wish to have a high-end brand image, then Merriweather is the best fonts style for it!"
-Taken from https://codetheorem.co/blogs/best-fonts-for-ecommerce-website
 
 
 checklist taken with thanks from https://github.com/Shaga-Matula
