@@ -24,7 +24,6 @@ CVC: 242 <br>
 Postcode: 42424
 
 
-
 # Business Model 
 Eye Deal optics is a B2C business. The business sells optical and sun frames from small boutique makers from around the world. We advertise on Facebook, users can share the page to spread the word on the latest trends and pieces . The online store will sell and deliver goods to purchasing customers and all marketing will be done digitally.
 
@@ -34,12 +33,123 @@ Eye Deal optics is a B2C business. The business sells optical and sun frames fro
 ## Site Goals
 
 The site is aimed at anyone that wants to buy a bespoke frame and wants to stand out from crowd. Without signing in the user can browse the online store.
- They can also look at the site blog to see the musings from the business owner.
+They can also look at the site blog to see the musings from the business owner.
 They can log in to see a log of the items they have bought. They can also save their details for future purchases.
 
 ## Agile Planning
 
-This project was developed using agile methodologies, delivering small features over  sprints spaced out over  weeks.  Each issue was labelled must have, should have and could have.  The must-have features were completed first, then the should have's, then the could have's.  It was done this way to ensure a complete website is made with the nice-to-have features added if there is capacity.
+This project was developed using agile methodologies, delivering small features over  sprints spaced out over  weeks. 
+The must-have features were completed first, then the should have's, then the could have's.  It was done this way to ensure a complete website is made with the nice-to-have features added if there is capacity.
+
+### **Milestones**<br>
+- Home
+- Registration
+- Products
+- Basket
+- Checkout
+- Payment 
+- Profile 
+- Admin
+- Reviews
+- Contact
+- Journal
+- Readme & Testing
+
+#### **Sprints**<br> 
+
+1. Full CRUD
+2. checkout functionality 
+3. ui/ux updates
+4. Finishing documentation, SEO, meta data, facebook page, 
+
+<hr>
+
+The user stories were grouped into different Epics
+
+Epic 1 - Set up
+
+- Nothing can be done before the Django app's basic setup is finished, this was the first issue to tackle
+
+Epic 1 user stories
+
+- As a developer, it is my responsibility to set up the project so that its essential features may be implemented.
+- I want to build a foundation HTML page as a developer so that every page can have the same structure.
+- I want to be able to just browse the website on any device as a user.e
+
+Epic 2 - Products and shopping bag
+
+- Establishing the database model, admin features, and template pages so that users can see the things that are for sale and receive notifications when new items are added to their bags.
+
+Epic 2 User Stories
+
+- As a User I want to be able to click into a product to examine its details. 
+- As a User I want to be able to view a list of products so that I may choose something to buy.
+- As a User I want to be able to see the items I have put to my shopping bag and the total cost as a user.
+- As a User When I decide I no longer desire something, I should be allowed to remove it from my bag.
+- As a User In order for me to know when a change has been finished, I would like to get a confirmation when I make changes, such as adding or deleting things from my bag.
+
+Epic 3 - payment and purchase confirmation emails.
+
+Epic 3 User Stories
+
+- As a User I want to be able to quickly submit my payment information so that I can buy the things I've selected.
+- As a User In order for me to feel certain that everything was done correctly, I need to see proof that my payment was processed and that my item is being delivered to the right address.
+- As a customer, I would want to receive an email from Eye-deal with a purchase confirmation for my personal file.
+
+Epic 4 Allauth User Stories
+
+- I want to be able to sign up quickly and simply as a new user.
+- As a recurring user, I would like to have an easy time logging in.
+- I want to be able to quickly and safely log out of the website as a user.
+- As a developer, I want to make sure that every form has the same aesthetic and appears great across all platforms.
+- As a developer, I require email confirmation and secure accounts. 
+
+Epic 5 - Profile Page
+ - As a User, I want to be able to access a profile page so that I can see my order details.
+ - As a User, I want to see what purchases I have made in the past.
+ - As a User, I want to be able to update my details if I change address.
+
+Epic 6 - Blog / Journal
+
+- As a User I want to be able to see further information on optical trends.
+- As a site owner I want to easily be able to add blog entries onto the Site
+- As a site owner I want to be able to edit my blog posts so that I can make corrections easily and quickly.
+- As a site owner I want to be able to delete blog posts as necessary.
+- As a site owner I want to be the only one who can create edit and delete blog posts
+
+Epic 7 - Reviews
+
+Epic 7 User Stories
+
+- As a User, I would like to be able to read reviews about the site so I can decide if I want to use it
+- As a User I want to be able to leave feedback to both the site owner and other users.
+- As a user, I want to be able to give my review a rating out of five for ease of reference
+
+Epic 8 - Contact page
+
+Epic 8 User Stories
+
+- As a User, I would like to be able to be able to directly contact the site owner with queries and issues.
+
+Epic 9 Footer
+
+Epic 9 User Stories
+
+- As the site owner, I want to share social media links and contact details
+- As the site owner, I want a nav bar for the site extras such as the terms and conditions pages
+
+Epic 10 - Documentation and styling
+
+Epic 10 Tasks
+
+- Full Style across all pages and screen widths
+- The whole Readme file
+- Finish testing and writing up
+
+## **Skeleton Plane**<br> 
+### **Wireframes**<br>
+Prior to writing any code, initial wireframes were drawn with pencil and paper. Once happy with the layout and design, I used [Wireframepro](https://wireframepro.mockflow.com/) to create my wireframes.
+![Mockup image](documentation/readme/wireframe.png)
 
 
 # **Marketing Strategy**
@@ -100,26 +210,8 @@ The [Privacy Policy Generator](https://www.termly.io/) was employed to write Eye
 
 
 
-Intro
-Creating a full stack ecomm site for a spectacle frame retailer
 
-live link https://eye-deal-e27624539e49.herokuapp.com/
 
-Milestones
-Home
-Registration
-Products
-Basket
-Checkout
-Payment
-Profile
-Admin
-Reviews
-
-1. Full CRUD
-2. checkout functionality 
-3. ui/ux updates
-4. Finishing documentation, SEO, meta data, facebook page, 
 
 CUSTOM MODELS (potentially):
 contact us page
@@ -490,4 +582,4 @@ I would like to thank:
  for all the advice, support and picking apart the puzzles that coding presents. 
 - Cohort facilitator Paul Thomas O'Riordan, for their general advice and support through out this course. 
 - The invaluable Slack community and tutors at tutor support, really helping in times of need.
-- This project was brought you by the power of............Cups of coffee = 72
+- This project was brought you by the power of............Cups of coffee = 73
