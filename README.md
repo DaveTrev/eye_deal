@@ -230,98 +230,6 @@ you can follow these steps for the app that you want to transfer the data over, 
 ﻿- python3 manage.py loaddata products.json
 ​﻿﻿5. Repeat for any other apps you wish to transfer.
 
-credits
-boutique ado project used a boilerplate
-use bootstrap 4 https://getbootstrap.com/docs/4.6/getting-started/introduction/
-
-design eyewear group https://designeyeweargroup.kontainer.com/folder/4250#token=s4lkLCrIra&type=direct
-
-orgreen optics https://orgreenoptics.presscloud.com/digitalshowroom/#/gallery
-Any product is used for educational purposes only
-
-https://claritydev.net/blog/adding-a-blog-to-your-django-website
-adding a blog
-
-adding a contact us form 
-https://www.twilio.com/blog/build-contact-form-python-django-twilio-sendgrid
-
-building an image gallery with django
-https://reintech.io/blog/building-image-gallery-in-django
-
-https://unsplash.com/photos/silver-framed-eyeglasses-on-wooden-surface-KZa_RBuBLu4 
-404 page image
-
-https://www.pexels.com/photo/red-sunglasses-on-pink-surface-1532244/
-
-journal / blog
-https://github.com/adamgilroy22/retro-reboot/tree/main
-CI I think therefore i blog
-
-contact us form:
-https://medium.com/@k.lancemeister/django-crispy-forms-cb6f97200299
-https://www.youtube.com/watch?v=w4ilq6Zk-08
-
-reviews
-https://michaelstromer.nyc/books/intro-to-django/django-reviews
-
-wishlist
-https://data-flair.training/blogs/python-django-wishlist-app/
-
-SEO keywords https://www.wordtracker.com/search
-
-https://www.shapedivider.app/
-
-adding wishlist to profile app
-https://stackoverflow.com/questions/51230409/how-to-assign-userprofile-with-wishlist-without-using-a-default-user
-
-Generating sku codes
-https://www.3dsellers.com/free-tools/sku-generator
-
-https://releases.jquery.com/
-
-django key generator
-https://miniwebtool.com/django-secret-key-generator/
-
-xmlsitemap
-https://www.xml-sitemaps.com/
-
-Favicon.io 
-https://favicon.io/favicon-generator/e
-
-bootstrap footer 
-https://mdbootstrap.com/docs/standard/navigation/footer/
-
-django documentation - bag_tools
-
-generating returns policy, privacy policy https://app.termsfeed.com/
-
-on mail used for store email
-
-https://bulkimagecrop.com/ cropping images (fantastic site for bulk cropping)
-
-
-webhook handler pep8 linter
-https://stackoverflow.com/questions/45346575/what-does-noqa-mean-in-python-comments
-#noqa added 
-
-
-footer fix
-<div class="container text-center">
-  <div class="row row-cols-4">
-    <div class="col">Column</div>
-    <div class="col">Column</div>
-    <div class="col-6">Column</div>
-    <div class="col">Column</div>
-  </div>
-</div>
-
-
-
-
-https://cubitts.com/blogs/journal?TN - inspo for journal app
-
-designing for the visually impaired / low vision
-https://fuzzymath.com/blog/improve-accessibility-for-visually-impaired-users/
 
 checklist taken with thanks from https://github.com/Shaga-Matula
 ## Tasks :
@@ -331,13 +239,6 @@ checklist taken with thanks from https://github.com/Shaga-Matula
 ## Acceptance Criteria :
 - [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
 - [ ] <label><input type="checkbox" disabled /> Criteria 1 :  ############## </label>
-
-
-Been a day fixing this...  so dont fall into this one... its remove in shoping basket if you cut and paste you will get and error...  here is the fix..    bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
-js code: var url = `/bag/remove/${itemId}/`;
-My code:
-bag.urls : path('remove/<item_id>/', views.remove_from_bag, name='remove_from_bag'),
-js code: let url = `remove/${itemId}/`;   - remove this part /bag/
 
 # Deployment
 
@@ -530,6 +431,12 @@ https://michaelstromer.nyc/books/intro-to-django/django-reviews
 
 - wishlist
 https://data-flair.training/blogs/python-django-wishlist-app/
+
+- Inspiration for journal app
+https://cubitts.com/blogs/journal?TN 
+
+- designing for the visually impaired / low vision
+https://fuzzymath.com/blog/improve-accessibility-for-visually-impaired-users/
 
 - SEO keywords
 https://www.wordtracker.com/search
