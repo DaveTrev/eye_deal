@@ -311,13 +311,13 @@ Pass: No Errors
 | Add Product | no image is selected | default image is used | Pass |
 | Deleting Product | Deleting selected product | removed product from search | Pass |
 | Deleting Message | Deleting product confirmation | Confirmation message of deletion is shown when successfully deleted | Pass |
-| Defensive Programming | Users not permitted to access create/update/delete products articles or reviews if they don't have access permission | Pass |
+| Defensive Programming | Users not permitted to access create/update/delete products or journal posts if they don't have access permission | Pass |
 | Logging out | message shown | Logging out as a user / admin prompts "are you sure" message | Pass |
 | Successfully signed out | signed out message shown | "You have signed out" message shows to user when successfully signed out | Pass |
 | Logging out | Logging out and redirect | Logging out as a user / admin directs user to homepage | Pass |
 | Footer | social media links | Clicking on the social media icons in the footer open the link in a new tab | Pass |
 | Footer | Privacy Policy links | Clicking on the Privacy Policy link in the footer diverts user to the /privacy/ page | Pass |
-
+| Footer | Returns Policy links | Clicking on the Returns Policy link in the footer diverts user to the /privacy/ page | Pass |
 
 
 ## Browser Compatibility
